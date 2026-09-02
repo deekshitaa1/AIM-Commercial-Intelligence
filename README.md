@@ -1,466 +1,336 @@
-# AIM — Commercial Marketing Intelligence
+<div align="center">
 
-> **End-to-end Data Analytics project for customer acquisition, marketing performance, segmentation, prospect scoring, and business decision support.**
+# AIM
+### Commercial Marketing Intelligence
 
-AIM analyzes **25,000 synthetic commercial prospect records** to answer practical business questions: which channels convert, which campaigns perform best, which segments create the most value, which prospects sales should prioritize, and where risk review is required.
+**An end-to-end Data Analytics & Decision Intelligence platform for customer acquisition.**
 
-The project follows a recruiter-friendly analytics workflow:
+<p>
+  <img src="https://img.shields.io/badge/Data%20Analytics-0F172A?style=for-the-badge&logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827" />
+  <img src="https://img.shields.io/badge/FastAPI-059669?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
 
-**Raw Data → Cleaning → Feature Engineering → SQL/Python Analysis → KPIs → Segmentation → Predictive Modeling → Business Value → Prioritization → Dashboard → Recommendations**
-
-> **Dataset note:** This project uses synthetically generated data for portfolio and learning purposes. It is not affiliated with, endorsed by, or sponsored by American Express or any financial institution.
-
----
-
-## 01 — Business Problem
-
-Marketing and sales teams need to allocate limited acquisition effort toward opportunities with the strongest combination of **conversion likelihood, expected revenue, business value, and risk**.
-
-AIM is designed to answer:
-
-- Which acquisition channels perform best?
-- Which campaigns generate the strongest conversion rates?
-- Which industries and regions show stronger commercial performance?
-- Which customer segments are most valuable?
-- Which prospects should sales prioritize?
-- Where is expected net value highest?
-- Which records require gaming/anomaly review?
-
-The goal is to move from **descriptive reporting to data-backed commercial decisions**.
+</div>
 
 ---
 
-## 02 — Executive KPI Snapshot
+## ◼ Executive Overview
 
-| KPI | Result |
-|---|---:|
-| Prospects | **25,000** |
-| Conversions | **7,479** |
-| Conversion Rate | **29.92%** |
-| High-Value Targets | **1,186** |
-| Gaming-Risk Records | **114** |
-| Expected Revenue | **$1.127B** |
-| Acquisition Cost | **$52.93M** |
-| Expected Net Value | **$1.074B** |
+AIM converts prospect, campaign, channel, segment, and acquisition data into **commercially actionable intelligence**.
 
-> All figures above are calculated from the project's synthetic dataset.
+The project is designed around the workflow used by modern analytics teams:
+
+```text
+RAW DATA
+   ↓
+DATA QUALITY & CLEANING
+   ↓
+FEATURE ENGINEERING
+   ↓
+SQL + PYTHON ANALYTICS
+   ↓
+KPI & PERFORMANCE ANALYSIS
+   ↓
+SEGMENTATION + PREDICTIVE MODELING
+   ↓
+EXPECTED VALUE & PRIORITIZATION
+   ↓
+DASHBOARD + API
+   ↓
+BUSINESS RECOMMENDATIONS
+```
+
+> **Project objective:** move from descriptive reporting to decision-ready commercial analytics — identifying where acquisition performs, which prospects deserve attention, where risk exists, and what action should be taken next.
 
 ---
 
-## 03 — Dataset
+## ◼ Dashboard Preview
 
-The analytical dataset contains **25,000 prospect records** and **26 raw fields** covering:
+### `AIM Commercial Marketing Intelligence`
 
-| Business Dimension | Variables |
+| Module | Business Question |
 |---|---|
-| Company | Industry, region, company size, annual revenue, employees, years in business |
-| Relationship | Existing customer relationship, previous applications |
-| Marketing | Campaign, acquisition channel, sales contacts |
-| Digital Engagement | Website visits, email opens, email clicks, engagement |
-| Outcome | Conversion |
-| Economics | Expected revenue, acquisition cost, business value |
-| Risk | Gaming/risk indicators |
+| **Executive KPIs** | What is the current acquisition performance? |
+| **Channel Performance** | Which acquisition channels deliver value? |
+| **Campaign Analysis** | Which campaigns convert efficiently? |
+| **Segmentation** | Which customer groups behave differently? |
+| **Prospect Prioritization** | Who should sales/marketing contact first? |
+| **Risk Analysis** | Which records require review? |
+| **Ask AIM** | What does the data say about a business question? |
 
-Additional analytical features are created during preprocessing.
+**Live dashboard:** customer acquisition KPIs, channel and campaign performance, segmentation, prospect prioritization, risk analysis, and grounded business analytics through Ask AIM.
 
----
-
-## 04 — Data Preparation & Feature Engineering
-
-The pipeline prepares raw commercial data for reliable analysis through:
-
-- Duplicate prospect removal
-- Date parsing and validation
-- Numeric validation
-- Missing-value handling
-- Categorical-value handling
-- Data consistency checks
-
-### Derived Features
-
-- `engagement_rate`
-- `sales_intensity`
-- `revenue_per_employee`
-- `is_recent_interaction`
-- `is_high_engagement`
-
-These features provide a cleaner analytical layer for SQL, Python, machine learning, and BI reporting.
+**Backend API:** AIM Commercial Marketing Intelligence API  
+**API health:** `/health`
 
 ---
 
-## 05 — Exploratory Data Analysis
+## ◼ KPI Snapshot
 
-### Acquisition Channel Performance
+| Metric | Result |
+|:---|---:|
+| **Prospects Analyzed** | 25,000 |
+| **Conversions** | 7,479 |
+| **Conversion Rate** | 29.92% |
+| **High-Value Targets** | 1,186 |
+| **Gaming-Risk Records** | 114 |
+| **Expected Revenue** | **$1.127B** |
+| **Acquisition Cost** | $52.93M |
+| **Expected Net Value** | **$1.074B** |
 
-Channels are evaluated using:
+---
 
-- Prospect volume
-- Conversion volume
-- Conversion rate
-- Expected revenue
+## ◼ Analytics Layers
+
+### 01 — Data Preparation
+
+- Structured raw prospect and marketing data
+- Missing-value and data-quality handling
+- Feature engineering for commercial analysis
+- Reproducible processed datasets
+
+### 02 — Exploratory & Diagnostic Analytics
+
+Analysis across:
+
+- Acquisition channels
+- Campaign performance
+- Industry
+- Region
+- Customer segments
+- Conversion behavior
 - Acquisition cost
-- Expected net value
+- Revenue potential
 
-**Current dataset finding:** Email records the highest conversion rate at **30.8%**.
+### 03 — Predictive Analytics
 
-### Campaign Performance
+| Model | Purpose | ROC-AUC |
+|---|---|---:|
+| Logistic Regression | Conversion probability | **72.46%** |
+| Decision Tree | Non-linear conversion patterns | 69.62% |
+| K-Means | Customer/prospect segmentation | 5 clusters |
+| Isolation Forest | Anomaly & gaming-risk detection | Risk screening |
 
-Campaigns are compared using:
+**Logistic Regression metrics:** Accuracy 66.32% · Precision 45.63% · Recall 65.64% · F1 53.84% · ROC-AUC 72.46%
 
-- Prospect volume
-- Conversion volume
-- Conversion rate
-- Expected revenue
-- Expected net value
+### 04 — Commercial Value
 
-**Current dataset finding:** `Enterprise_Expansion` has the highest campaign conversion rate at **30.6%**.
-
-### Customer Segmentation
-
-Prospects are evaluated by behavioral and business segments using:
-
-- Segment size
-- Average revenue
-- Engagement
-- Conversion rate
-- Average business value
-
-This allows performance to be analyzed at the **segment level**, rather than relying only on overall averages.
-
----
-
-## 06 — Commercial Value Analysis
-
-AIM separates **conversion likelihood** from **commercial value**.
-
-For each prospect:
+AIM translates model output into business value rather than stopping at model accuracy.
 
 ```text
 Expected Value
-    =
-Conversion Probability × Expected Revenue
-    − Acquisition Cost
+= Conversion Probability × Expected Revenue − Acquisition Cost
 ```
 
-The resulting value is combined with:
-
-- Conversion propensity
-- Engagement
-- Gaming risk
-
-to create a **Marketing Priority Score**.
-
-This creates an important distinction:
-
-> **Most likely to convert ≠ Most valuable to prioritize**
-
-That distinction drives the prospect prioritization layer.
+This enables prospect prioritization based on **expected commercial impact**.
 
 ---
 
-## 07 — Machine Learning for Decision Support
+## ◼ Decision Engine
 
-Machine learning is used as an **analytical decision-support layer**, not as the sole purpose of the project.
+AIM converts analytics into operational recommendations:
 
-### Logistic Regression — Conversion Propensity
-
-Used to estimate prospect conversion probability.
-
-| Metric | Test Result |
-|---|---:|
-| Accuracy | 66.32% |
-| Precision | 45.63% |
-| Recall | 65.64% |
-| F1 Score | 53.84% |
-| ROC-AUC | **72.46%** |
-
-### Decision Tree
-
-Used as an interpretable comparison model.
-
-**ROC-AUC: 69.62%**
-
-### K-Means
-
-Used to identify **5 prospect/customer segments** for behavioral analysis.
-
-### Isolation Forest
-
-Used to identify unusual records and support gaming/risk review.
-
----
-
-## 08 — Prospect Prioritization
-
-Model outputs are translated into business actions rather than stopping at prediction scores.
-
-| Recommendation | Business Purpose |
+| Decision | Meaning |
 |---|---|
-| `PRIORITIZE_HIGH_VALUE_OUTREACH` | Focus sales effort on high-value prospects |
-| `TARGET_WITH_PERSONALIZED_OFFER` | Tailor offers to stronger opportunities |
-| `NURTURE_AND_RETARGET` | Continue engagement with developing prospects |
-| `REVIEW_FOR_GAMING` | Review elevated-risk records |
-| `LOW_PRIORITY` | Deprioritize lower-value opportunities |
+| `PRIORITIZE_HIGH_VALUE_OUTREACH` | High expected-value prospects deserve immediate attention |
+| `TARGET_WITH_PERSONALIZED_OFFER` | Use targeted messaging or offers |
+| `NURTURE_AND_RETARGET` | Continue lower-intensity engagement |
+| `REVIEW_FOR_GAMING` | Investigate anomalous behavior |
+| `LOW_PRIORITY` | Deprioritize based on expected value |
 
-### Current prioritization output
+### Current Prioritization Output
 
-- **2,664** prospects → high-value outreach
-- **8,323** prospects → personalized offers
-- **114** records → gaming-risk review
+- **2,664** high-value outreach prospects
+- **8,323** personalized-offer prospects
+- **114** gaming-risk records for review
 
 ---
 
-## 09 — Analytics & Reporting Layer
+## ◼ Business Intelligence Outputs
 
-The project produces structured analytical outputs for executive and operational reporting:
+The pipeline produces BI-ready datasets for dashboarding and reporting:
 
 ```text
-powerbi/
-├── executive_kpis.csv
-├── channel_performance.csv
-├── campaign_performance.csv
-├── industry_performance.csv
-├── region_performance.csv
-├── segment_performance.csv
-├── target_prioritization.csv
-├── gaming_anomalies.csv
-└── recommendations.csv
+executive_kpis.csv
+channel_performance.csv
+campaign_performance.csv
+industry_performance.csv
+region_performance.csv
+segment_performance.csv
+target_prioritization.csv
+gaming_anomalies.csv
+recommendations.csv
 ```
 
-The reporting layer supports:
-
-- Executive KPI monitoring
-- Acquisition performance
-- Campaign analysis
-- Industry and regional analysis
-- Customer segmentation
-- Prospect prioritization
-- Risk/anomaly analysis
-- Business recommendations
+These outputs support executive reporting, marketing optimization, sales prioritization, and campaign decision-making.
 
 ---
 
-## 10 — Ask AIM: Grounded Business Analytics
+## ◼ Ask AIM
 
-The application includes a business-question interface for querying the generated analytical results.
-
-Example questions:
+The platform includes a grounded analytics interface for business questions such as:
 
 ```text
-Which acquisition channel performs best?
-
-Which campaign has the highest conversion rate?
-
-Which customer segment has the highest business value?
-
-Which prospects should sales prioritize?
-
-Which channel generates the highest expected net value?
-
-Which prospects have elevated gaming risk?
+Which channel performs best?
+Which campaigns have the strongest conversion?
+Which segments have the highest expected value?
+Which prospects should be prioritized?
+Where are anomalies or gaming risks concentrated?
+What action should the business take next?
 ```
 
-The grounded analytics layer uses the project's generated analytical datasets and calculated metrics as its evidence source instead of inventing unsupported business figures.
+Ask AIM is designed to answer from the project's available analytical outputs rather than generating unsupported business claims.
 
 ---
 
-## 11 — End-to-End Architecture
+## ◼ System Architecture
 
 ```text
-                    ┌─────────────────────┐
-                    │  Commercial Dataset │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Data Cleaning       │
-                    │ Validation          │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Feature Engineering │
-                    └──────────┬──────────┘
-                               ↓
-              ┌────────────────┴────────────────┐
-              ↓                                 ↓
-       ┌───────────────┐                 ┌───────────────┐
-       │ SQL / Python  │                 │ ML Analytics  │
-       │ KPI & EDA     │                 │ Propensity    │
-       └───────┬───────┘                 │ Segmentation  │
-               │                         │ Anomalies     │
-               │                         └───────┬───────┘
-               └──────────────┬──────────────────┘
+                 ┌─────────────────────────┐
+                 │       RAW DATA          │
+                 └────────────┬────────────┘
                               ↓
-                    ┌─────────────────────┐
-                    │ Business Value      │
-                    │ & Priority Scoring  │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Reporting / BI      │
-                    │ Dashboard           │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Recommendations    │
-                    │ Decision Support    │
-                    └─────────────────────┘
+                 ┌─────────────────────────┐
+                 │ Cleaning & Engineering  │
+                 │     Python / SQL        │
+                 └────────────┬────────────┘
+                              ↓
+              ┌──────────────────────────────┐
+              │      Analytics Layer         │
+              │ KPI · EDA · Segmentation     │
+              │ Prediction · Anomaly         │
+              └──────────────┬───────────────┘
+                             ↓
+              ┌──────────────────────────────┐
+              │      Decision Intelligence   │
+              │ Expected Value · Priorities  │
+              │ Recommendations · Risk       │
+              └──────────────┬───────────────┘
+                             ↓
+          ┌──────────────────┴──────────────────┐
+          ↓                                     ↓
+ ┌────────────────────┐              ┌────────────────────┐
+ │  FastAPI Backend    │              │ React Dashboard    │
+ │  REST Analytics API │              │ BI / Visualization │
+ └────────────────────┘              └────────────────────┘
 ```
 
 ---
 
-## 12 — Technology Stack
+## ◼ Technology Stack
 
-### Data Analytics
-
+**Analytics**  
 `Python` · `Pandas` · `NumPy` · `SQL` · `PostgreSQL` · `PySpark`
 
-### Visualization & BI
-
+**Business Intelligence**  
 `Power BI` · `Recharts`
 
-### Machine Learning
-
+**Machine Learning**  
 `Scikit-learn` · `Logistic Regression` · `Decision Tree` · `K-Means` · `Isolation Forest`
 
-### API & Application
+**Application**  
+`FastAPI` · `Uvicorn` · `Pydantic` · `React` · `TypeScript` · `Vite`
 
-`FastAPI` · `Uvicorn` · `Pydantic` · `React` · `TypeScript`
-
-### Engineering
-
-`Git` · `GitHub` · `Render`
-
-The Python environment is defined in `requirements.txt`, including Pandas, NumPy, scikit-learn, SQLAlchemy, PostgreSQL support, FastAPI, joblib, and PySpark.
+**Engineering**  
+`Git` · `GitHub` · `REST API` · `Render`
 
 ---
 
-## 13 — Repository Structure
+## ◼ Repository Structure
 
 ```text
 AIM-Commercial-Intelligence/
 │
-├── api/
-│   └── main.py                 # FastAPI analytics API
+├── api/                         # FastAPI analytics backend
+│   └── main.py
 │
-├── data/
-│   ├── raw/                    # Raw prospect data
-│   └── processed/              # Cleaned, scored & analytical outputs
-│       ├── models/             # Trained ML artifacts & metrics
-│       ├── powerbi/            # BI-ready analytical datasets
-│       ├── scored_prospects.csv
-│       └── automated_insights.json
-│
-├── dashboard/                  # React + TypeScript dashboard
-│   ├── public/
+├── dashboard/                   # React + TypeScript dashboard
 │   ├── src/
+│   ├── public/
 │   ├── package.json
 │   └── vite.config.ts
 │
-├── sql/                        # SQL analytics
+├── data/                        # Raw & processed datasets
+│
+├── sql/                         # SQL analytics / transformations
 │
 ├── src/
-│   ├── analytics/              # Business analytics & grounded insights
-│   ├── data/                   # Data preparation
-│   └── models/                 # ML training workflows
+│   ├── analytics/               # Analytical workflows
+│   ├── data/                    # Data preparation
+│   └── models/                  # ML models
 │
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 14 — API Analytics Surface
+## ◼ API Surface
 
-The FastAPI layer exposes business-ready analytical endpoints including:
+The FastAPI service exposes analytical endpoints including:
 
 ```text
-GET  /health
-GET  /api/v1/overview
-GET  /api/v1/models
-GET  /api/v1/insights
-GET  /api/v1/insights/summary
-GET  /api/v1/channels
-GET  /api/v1/campaigns
-GET  /api/v1/segments
-GET  /api/v1/targets
-GET  /api/v1/prospects/{prospect_id}
-GET  /api/v1/anomalies
-GET  /api/v1/recommendations
-POST /api/v1/genai
+GET /
+GET /health
+GET /api/v1/overview
+GET /api/v1/models
+GET /api/v1/insights
+GET /api/v1/insights/summary
+GET /api/v1/channels
+GET /api/v1/campaigns
+GET /api/v1/segments
+GET /api/v1/targets
+GET /api/v1/prospects/{prospect_id}
+GET /api/v1/anomalies
+GET /api/v1/recommendations
+GET /api/v1/genai
 ```
 
-This keeps the analytical layer reusable for dashboards and downstream applications.
+---
+
+## ◼ Recruiter View
+
+This project demonstrates practical capability across the complete analytics lifecycle:
+
+**Data Analyst**  
+Data cleaning · EDA · KPI design · SQL analysis · segmentation · business insights · dashboard-ready datasets
+
+**Analytics Engineer**  
+Reusable pipelines · feature engineering · API-driven analytics · structured outputs
+
+**ML / AI Analyst**  
+Classification · clustering · anomaly detection · probability-based prioritization
+
+**Business Intelligence**  
+Executive KPIs · performance analysis · commercial metrics · actionable recommendations
+
+**Software Engineering**  
+FastAPI · React · TypeScript · REST endpoints · modular project architecture
 
 ---
 
-## 15 — What This Project Demonstrates
+## ◼ Key Takeaway
 
-### Data Analysis
+> **AIM is not just a dashboard and not just a machine-learning model. It is an end-to-end analytics system that connects data → metrics → prediction → commercial value → decisions.**
 
-- Data cleaning and validation
-- Exploratory data analysis
-- KPI development
-- Funnel analysis
-- Channel performance analysis
-- Campaign performance analysis
-- Industry and regional analysis
-- Customer segmentation
-- Business-value analysis
-- Risk/anomaly analysis
-
-### SQL
-
-- Business aggregations
-- Filtering and grouping
-- KPI calculations
-- Analytical data preparation
-- Performance analysis across business dimensions
-
-### Python
-
-- Pandas-based transformation
-- Feature engineering
-- Statistical analysis
-- Automated analytical reporting
-- Data preparation for ML and BI
-
-### Machine Learning
-
-- Classification
-- Model evaluation
-- Probability-based scoring
-- Customer segmentation
-- Anomaly detection
-
-### Business Decision-Making
-
-- Conversion analysis
-- Marketing prioritization
-- Expected-value analysis
-- Customer targeting
-- Risk-aware recommendations
-
-### BI / Reporting
-
-- Executive KPI reporting
-- Marketing dashboards
-- Segment analysis
-- Campaign/channel reporting
-- Action-oriented recommendations
+The strongest outcome is the ability to answer **“what should the business do next?”** using measurable evidence from the data.
 
 ---
 
-## 16 — Key Takeaway
+## ⚠️ Dataset Disclaimer
 
-AIM demonstrates how a Data Analyst can take a commercial dataset and turn it into a decision-support workflow:
-
-> **Raw data → Clean data → KPIs → EDA → Segmentation → Predictive analytics → Business value → Prioritization → Reporting → Recommendations**
-
-The emphasis is on **answering business questions with data** — not simply training a model or creating a visualization.
+The dataset and project are intended for **educational, portfolio, and analytical demonstration purposes**. The synthetic data is not affiliated with, endorsed by, or representative of American Express or any financial institution.
 
 ---
 
-## Disclaimer
+<div align="center">
 
-This is an independent portfolio project using **synthetically generated data**. It is not affiliated with, endorsed by, or sponsored by American Express, and it does not use confidential or proprietary company data.
+### AIM — Data → Intelligence → Action
+
+**Built as a portfolio project for Data Analytics, Business Intelligence, ML Decision Support, and Analytics Engineering.**
+
+</div>
