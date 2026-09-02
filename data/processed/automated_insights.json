@@ -1,0 +1,32 @@
+{
+  "executive_summary": "AIM identified a 29.9% overall acquisition rate across 25,000 prospects. The strongest channel by conversion is Email (30.8%), while Enterprise_Expansion leads campaigns at 30.6%. The model recommends 2,664 prospects for high-value outreach and 8,323 for personalized offers. 114 records have elevated gaming risk and should be reviewed before targeting.",
+  "insights": [
+    "The acquisition engine analyzed 25,000 prospects and identified 7,479 conversions, producing an overall conversion rate of 29.9%.",
+    "Email is the strongest acquisition channel by conversion rate at 30.8%, with 1,371 conversions.",
+    "Email generates the largest aggregate expected net value at $194.74M.",
+    "Enterprise_Expansion is the strongest campaign by conversion rate at 30.6%.",
+    "Customer segment 0 has the highest observed conversion rate at 83.2%, indicating a concentrated high-propensity audience.",
+    "The scoring engine identified 1,186 high-value prospects suitable for focused targeting.",
+    "2,664 prospects are currently classified for high-value outreach, while 8,323 are better suited to personalized offers.",
+    "114 prospects require gaming-risk review. These records should be screened before aggressive acquisition activity."
+  ],
+  "actions": [
+    "Prioritize Email for high-propensity acquisition campaigns.",
+    "Evaluate scaling Enterprise_Expansion because it currently has the highest campaign conversion rate.",
+    "Use segment 0 as a high-propensity audience for targeted campaigns.",
+    "Route 114 gaming-risk records to review rather than direct acquisition.",
+    "Use conversion probability and expected business value together instead of propensity alone when prioritizing prospects."
+  ],
+  "metrics": {
+    "prospects": 25000,
+    "conversions": 7479,
+    "conversion_rate": 0.2992,
+    "high_value_targets": 1186,
+    "gaming_risk_records": 114,
+    "best_channel": "Email",
+    "best_channel_conversion_rate": 0.308,
+    "best_campaign": "Enterprise_Expansion",
+    "best_campaign_conversion_rate": 0.306,
+    "best_segment": 0
+  }
+}

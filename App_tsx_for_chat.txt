@@ -1,0 +1,880 @@
+﻿import { useEffect, useState } from "react";
+import {
+  Activity,
+  AlertTriangle,
+  ArrowUpRight,
+  BrainCircuit,
+  Building2,
+  ChevronRight,
+  DollarSign,
+  Gauge,
+  Layers3,
+  Mail,
+  Megaphone,
+  RefreshCw,
+  ShieldAlert,
+  Sparkles,
+  Target,
+  Users,
+} from "lucide-react";
+
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+
+import "./App.css";
+
+const API_BASE = "http://127.0.0.1:8001";
+
+type Overview = {
+  prospects: number;
+  conversions: number;
+  conversion_rate: number;
+  total_expected_revenue: number;
+  total_acquisition_cost: number;
+  total_expected_net_value: number;
+  high_value_targets: number;
+  gaming_risk_records: number;
+};
+
+type Channel = {
+  channel: string;
+  prospects: number;
+  conversions: number;
+  conversion_rate: number;
+  expected_net_value?: number;
+  avg_business_value?: number;
+};
+
+type Campaign = {
+  campaign: string;
+  prospects: number;
+  conversions: number;
+  conversion_rate: number;
+  expected_net_value?: number;
+};
+
+type Segment = {
+  customer_segment: number;
+  prospects: number;
+  conversion_rate: number;
+  avg_revenue?: number;
+  avg_engagement?: number;
+  avg_business_value?: number;
+};
+
+type Recommendation = {
+  recommended_action: string;
+  prospects: number;
+  avg_conversion_probability: number;
+  total_business_value: number;
+};
+
+type Target = {
+  prospect_id: number;
+  industry: string;
+  company_size: string;
+  campaign: string;
+  channel: string;
+  conversion_probability: number;
+  expected_business_value: number;
+  marketing_priority_score: number;
+  priority_band: string;
+  gaming_risk_score: number;
+  recommended_action: string;
+};
+
+type AIMResponse = {
+  mode: string;
+  question: string;
+  answer: string;
+  evidence: Record<string, unknown>;
+  recommendation: string;
+};
+
+async function fetchApi<T>(path: string): Promise<T> {
+  const response = await fetch(`${API_BASE}${path}`, {
+    method: "GET",
+    headers: {
+      Accept: "application/json",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`API request failed: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+function money(value: number) {
+  if (!Number.isFinite(value)) return "$0";
+
+  if (value >= 1_000_000_000) {
+    return `$${(value / 1_000_000_000).toFixed(2)}B`;
+  }
+
+  if (value >= 1_000_000) {
+    return `$${(value / 1_000_000).toFixed(1)}M`;
+  }
+
+  if (value >= 1_000) {
+    return `$${(value / 1_000).toFixed(0)}K`;
+  }
+
+  return `$${value.toFixed(0)}`;
+}
+
+function percent(value: number) {
+  return `${(value * 100).toFixed(1)}%`;
+}
+
+function formatAction(value: string) {
+  return value.replaceAll("_", " ");
+}
+
+function App() {
+  const [overview, setOverview] = useState<Overview | null>(null);
+  const [channels, setChannels] = useState<Channel[]>([]);
+  const [campaigns, setCampaigns] = useState<Campaign[]>([]);
+  const [segments, setSegments] = useState<Segment[]>([]);
+  const [recommendations, setRecommendations] = useState<
+    Recommendation[]
+  >([]);
+  const [targets, setTargets] = useState<Target[]>([]);
+
+  const [question, setQuestion] = useState("");
+  const [aimResponse, setAimResponse] = useState<AIMResponse | null>(null);
+
+  const [loading, setLoading] = useState(true);
+  const [asking, setAsking] = useState(false);
+  const [error, setError] = useState("");
+
+  const loadDashboard = async () => {
+    try {
+      setLoading(true);
+      setError("");
+
+      const [
+        overviewData,
+        channelData,
+        campaignData,
+        segmentData,
+        recommendationData,
+        targetData,
+      ] = await Promise.all([
+        fetchApi<Overview>("/api/v1/overview"),
+        fetchApi<Channel[]>("/api/v1/channels"),
+        fetchApi<Campaign[]>("/api/v1/campaigns"),
+        fetchApi<Segment[]>("/api/v1/segments"),
+        fetchApi<Recommendation[]>("/api/v1/recommendations"),
+        fetchApi<Target[]>("/api/v1/targets?limit=8"),
+      ]);
+
+      setOverview(overviewData);
+      setChannels(channelData);
+      setCampaigns(campaignData);
+      setSegments(segmentData);
+      setRecommendations(recommendationData);
+      setTargets(targetData);
+    } catch (err) {
+      console.error("AIM dashboard connection error:", err);
+
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Unable to connect to AIM API",
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadDashboard();
+  }, []);
+
+  const askAIM = async () => {
+    const cleanQuestion = question.trim();
+
+    if (!cleanQuestion || asking) {
+      return;
+    }
+
+    try {
+      setAsking(true);
+      setAimResponse(null);
+
+      const response = await fetch(`${API_BASE}/api/v1/genai`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          question: cleanQuestion,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`AIM reasoning request failed: ${response.status}`);
+      }
+
+      const data: AIMResponse = await response.json();
+
+      setAimResponse(data);
+    } catch (err) {
+      console.error("AIM reasoning error:", err);
+
+      setAimResponse({
+        mode: "error",
+        question: cleanQuestion,
+        answer: "Unable to reach the AIM reasoning layer.",
+        evidence: {},
+        recommendation:
+          "Verify that the FastAPI backend is running on port 8001.",
+      });
+    } finally {
+      setAsking(false);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <div className="loading-card">
+          <div className="brand-mark">A</div>
+
+          <h2>Loading AIM Intelligence</h2>
+
+          <p>
+            Connecting to the commercial analytics engine...
+          </p>
+
+          <div className="loader" />
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !overview) {
+    return (
+      <div className="loading-screen">
+        <div className="error-card">
+          <ShieldAlert size={42} />
+
+          <h2>Unable to connect to AIM</h2>
+
+          <p>{error || "AIM API is unavailable."}</p>
+
+          <button onClick={loadDashboard}>
+            <RefreshCw size={17} />
+            Retry connection
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const channelChart = channels.map((item) => ({
+    name: item.channel,
+    rate: Number((item.conversion_rate * 100).toFixed(1)),
+  }));
+
+  const campaignChart = campaigns.map((item) => ({
+    name: item.campaign.replaceAll("_", " "),
+    rate: Number((item.conversion_rate * 100).toFixed(1)),
+  }));
+
+  const segmentChart = segments.map((item) => ({
+    name: `Segment ${item.customer_segment}`,
+    value: item.prospects,
+  }));
+
+  return (
+    <div className="app-shell">
+      <aside className="sidebar">
+        <div className="brand">
+          <div className="brand-icon">A</div>
+
+          <div>
+            <strong>AIM</strong>
+            <span>Commercial Intelligence</span>
+          </div>
+        </div>
+
+        <div className="workspace">
+          <span>WORKSPACE</span>
+
+          <div className="workspace-card">
+            <Building2 size={18} />
+
+            <div>
+              <strong>Marketing Analytics</strong>
+              <small>Commercial Growth</small>
+            </div>
+          </div>
+        </div>
+
+        <nav>
+          <div className="nav-label">ANALYTICS</div>
+
+          <a className="active">
+            <Gauge size={18} />
+            Executive Overview
+          </a>
+
+          <a>
+            <Activity size={18} />
+            Acquisition
+          </a>
+
+          <a>
+            <Users size={18} />
+            Segmentation
+          </a>
+
+          <a>
+            <BrainCircuit size={18} />
+            ML Targeting
+          </a>
+
+          <a>
+            <ShieldAlert size={18} />
+            Risk & Gaming
+          </a>
+
+          <div className="nav-label">DECISION SUPPORT</div>
+
+          <a>
+            <Sparkles size={18} />
+            Ask AIM
+          </a>
+
+          <a>
+            <Target size={18} />
+            Recommendations
+          </a>
+        </nav>
+
+        <div className="sidebar-footer">
+          <div className="api-dot" />
+
+          <div>
+            <strong>API Operational</strong>
+            <span>localhost:8001</span>
+          </div>
+        </div>
+      </aside>
+
+      <main className="main">
+        <header className="topbar">
+          <div>
+            <p className="eyebrow">
+              COMMERCIAL MARKETING INTELLIGENCE
+            </p>
+
+            <h1>Executive Overview</h1>
+
+            <p className="subtitle">
+              Turn acquisition data into measurable commercial decisions.
+            </p>
+          </div>
+
+          <button
+            className="refresh-btn"
+            onClick={loadDashboard}
+          >
+            <RefreshCw size={16} />
+            Refresh data
+          </button>
+        </header>
+
+        <section className="kpi-grid">
+          <KpiCard
+            icon={<Users />}
+            label="Total Prospects"
+            value={overview.prospects.toLocaleString()}
+            note={`${overview.conversions.toLocaleString()} converted`}
+            tone="blue"
+          />
+
+          <KpiCard
+            icon={<Target />}
+            label="Conversion Rate"
+            value={percent(overview.conversion_rate)}
+            note="Across acquisition funnel"
+            tone="violet"
+          />
+
+          <KpiCard
+            icon={<DollarSign />}
+            label="Expected Net Value"
+            value={money(overview.total_expected_net_value)}
+            note="Model-estimated business value"
+            tone="green"
+          />
+
+          <KpiCard
+            icon={<Sparkles />}
+            label="High-Value Targets"
+            value={overview.high_value_targets.toLocaleString()}
+            note="Priority acquisition audience"
+            tone="orange"
+          />
+
+          <KpiCard
+            icon={<AlertTriangle />}
+            label="Gaming Risk"
+            value={overview.gaming_risk_records.toLocaleString()}
+            note="Requires review"
+            tone="red"
+          />
+        </section>
+
+        <section className="grid-two">
+          <div className="panel">
+            <PanelHeader
+              title="Acquisition by Channel"
+              subtitle="Conversion rate across marketing channels"
+              icon={<Megaphone />}
+            />
+
+            <div className="chart">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={channelChart}>
+                  <CartesianGrid
+                    vertical={false}
+                    strokeDasharray="3 3"
+                  />
+
+                  <XAxis
+                    dataKey="name"
+                    tick={{ fontSize: 11 }}
+                  />
+
+                  <YAxis unit="%" />
+
+                  <Tooltip
+                    formatter={(value) => [
+                      `${value}%`,
+                      "Conversion",
+                    ]}
+                  />
+
+                  <Bar
+                    dataKey="rate"
+                    radius={[7, 7, 0, 0]}
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+
+          <div className="panel">
+            <PanelHeader
+              title="Campaign Performance"
+              subtitle="Conversion rate by campaign"
+              icon={<Mail />}
+            />
+
+            <div className="chart">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart
+                  data={campaignChart}
+                  layout="vertical"
+                >
+                  <CartesianGrid
+                    horizontal={false}
+                    strokeDasharray="3 3"
+                  />
+
+                  <XAxis type="number" unit="%" />
+
+                  <YAxis
+                    type="category"
+                    dataKey="name"
+                    width={125}
+                    tick={{ fontSize: 10 }}
+                  />
+
+                  <Tooltip
+                    formatter={(value) => [
+                      `${value}%`,
+                      "Conversion",
+                    ]}
+                  />
+
+                  <Bar
+                    dataKey="rate"
+                    radius={[0, 7, 7, 0]}
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        </section>
+
+        <section className="grid-three">
+          <div className="panel segment-panel">
+            <PanelHeader
+              title="Customer Segments"
+              subtitle="Prospect distribution"
+              icon={<Layers3 />}
+            />
+
+            <div className="segment-content">
+              <ResponsiveContainer width="55%" height={220}>
+                <PieChart>
+                  <Pie
+                    data={segmentChart}
+                    dataKey="value"
+                    nameKey="name"
+                    innerRadius={55}
+                    outerRadius={82}
+                    paddingAngle={3}
+                  >
+                    {segmentChart.map((_, index) => (
+                      <Cell key={index} />
+                    ))}
+                  </Pie>
+
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+
+              <div className="segment-list">
+                {segments.map((segment) => (
+                  <div
+                    className="segment-row"
+                    key={segment.customer_segment}
+                  >
+                    <span>
+                      <i />
+                      Segment {segment.customer_segment}
+                    </span>
+
+                    <strong>
+                      {segment.prospects.toLocaleString()}
+                    </strong>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="panel recommendations-panel">
+            <PanelHeader
+              title="Decision Actions"
+              subtitle="Model-driven recommendations"
+              icon={<Target />}
+            />
+
+            <div className="recommendation-list">
+              {recommendations.slice(0, 5).map((item) => (
+                <div
+                  className="recommendation"
+                  key={item.recommended_action}
+                >
+                  <div className="recommendation-icon">
+                    <ArrowUpRight size={16} />
+                  </div>
+
+                  <div>
+                    <strong>
+                      {formatAction(item.recommended_action)}
+                    </strong>
+
+                    <span>
+                      {item.prospects.toLocaleString()} prospects Â·{" "}
+                      {percent(item.avg_conversion_probability)} avg
+                      propensity
+                    </span>
+                  </div>
+
+                  <ChevronRight size={17} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="panel">
+          <PanelHeader
+            title="Priority Prospect Queue"
+            subtitle="Highest-scoring prospects from the ML decision engine"
+            icon={<BrainCircuit />}
+          />
+
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Prospect</th>
+                  <th>Industry</th>
+                  <th>Campaign</th>
+                  <th>Channel</th>
+                  <th>Propensity</th>
+                  <th>Business Value</th>
+                  <th>Priority</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {targets.map((target) => (
+                  <tr key={target.prospect_id}>
+                    <td>
+                      <strong>#{target.prospect_id}</strong>
+                    </td>
+
+                    <td>{target.industry}</td>
+
+                    <td>
+                      {target.campaign.replaceAll("_", " ")}
+                    </td>
+
+                    <td>{target.channel}</td>
+
+                    <td>
+                      <div className="score">
+                        <div>
+                          <span
+                            style={{
+                              width: `${Math.min(
+                                target.conversion_probability * 100,
+                                100,
+                              )}%`,
+                            }}
+                          />
+                        </div>
+
+                        <b>
+                          {percent(
+                            target.conversion_probability,
+                          )}
+                        </b>
+                      </div>
+                    </td>
+
+                    <td>
+                      {money(target.expected_business_value)}
+                    </td>
+
+                    <td>
+                      <span
+                        className={`priority ${target.priority_band
+                          .toLowerCase()
+                          .replaceAll("_", "-")}`}
+                      >
+                        {target.priority_band}
+                      </span>
+                    </td>
+
+                    <td className="action-cell">
+                      {formatAction(
+                        target.recommended_action,
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="ask-panel">
+          <div className="ask-copy">
+            <div className="ask-icon">
+              <Sparkles size={22} />
+            </div>
+
+            <div>
+              <p className="eyebrow">
+                GROUNDED AI REASONING
+              </p>
+
+              <h2>Ask AIM</h2>
+
+              <p>
+                Ask a business question and AIM will reason over
+                the actual analytics generated by the platform.
+              </p>
+            </div>
+          </div>
+
+          <div className="ask-box">
+            <input
+              value={question}
+              onChange={(event) =>
+                setQuestion(event.target.value)
+              }
+              onKeyDown={(event) => {
+                if (event.key === "Enter") {
+                  askAIM();
+                }
+              }}
+              placeholder="Which acquisition channel should we prioritize?"
+            />
+
+            <button
+              onClick={askAIM}
+              disabled={asking || !question.trim()}
+            >
+              {asking ? "Analyzing..." : "Ask AIM"}
+              <ArrowUpRight size={17} />
+            </button>
+          </div>
+
+          {aimResponse && (
+            <div className="aim-result">
+              <div className="aim-result-header">
+                <div>
+                  <span className="result-label">
+                    GROUNDED ANALYTICS
+                  </span>
+
+                  <h3>AIM reasoning result</h3>
+                </div>
+
+                <span className="aim-mode">
+                  {aimResponse.mode === "grounded_analytics"
+                    ? "GROUNDED"
+                    : "SYSTEM"}
+                </span>
+              </div>
+
+              <div className="aim-answer">
+                <p>{aimResponse.answer}</p>
+              </div>
+
+              {Object.keys(aimResponse.evidence).length > 0 && (
+                <div className="aim-evidence">
+                  <span className="result-label">
+                    EVIDENCE
+                  </span>
+
+                  <div className="evidence-grid">
+                    {Object.entries(
+                      aimResponse.evidence,
+                    )
+                      .slice(0, 4)
+                      .map(([key, value]) => (
+                        <div
+                          className="evidence-card"
+                          key={key}
+                        >
+                          <span>
+                            {key
+                              .replaceAll("_", " ")
+                              .toUpperCase()}
+                          </span>
+
+                          <strong>
+                            {Array.isArray(value)
+                              ? value.slice(0, 3).join(", ")
+                              : typeof value === "number"
+                                ? value.toLocaleString()
+                                : String(value)}
+                          </strong>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="aim-recommendation">
+                <div className="recommendation-icon">
+                  <Target size={16} />
+                </div>
+
+                <div>
+                  <span className="result-label">
+                    RECOMMENDATION
+                  </span>
+
+                  <p>
+                    {aimResponse.recommendation}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+        </section>
+
+        <footer>
+          <span>AIM Commercial Marketing Intelligence</span>
+
+          <span>
+            Analytics â€¢ ML â€¢ Decision Intelligence â€¢ GenAI
+          </span>
+        </footer>
+      </main>
+    </div>
+  );
+}
+
+function KpiCard({
+  icon,
+  label,
+  value,
+  note,
+  tone,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  value: string;
+  note: string;
+  tone: string;
+}) {
+  return (
+    <div className={`kpi-card ${tone}`}>
+      <div className="kpi-top">
+        <div className="kpi-icon">{icon}</div>
+        <ArrowUpRight size={17} />
+      </div>
+
+      <span>{label}</span>
+
+      <strong>{value}</strong>
+
+      <small>{note}</small>
+    </div>
+  );
+}
+
+function PanelHeader({
+  title,
+  subtitle,
+  icon,
+}: {
+  title: string;
+  subtitle: string;
+  icon: React.ReactNode;
+}) {
+  return (
+    <div className="panel-header">
+      <div className="panel-title">
+        <div className="panel-icon">{icon}</div>
+
+        <div>
+          <h3>{title}</h3>
+          <p>{subtitle}</p>
+        </div>
+      </div>
+
+      <ChevronRight size={18} />
+    </div>
+  );
+}
+
+export default App;

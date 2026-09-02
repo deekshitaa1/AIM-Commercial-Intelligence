@@ -1,0 +1,818 @@
+prospect_id,industry,region,channel,campaign,previous_applications,website_visits,email_opens,email_clicks,sales_contacts,duplicate_application_flag,velocity_flag,gaming_risk_score,ml_anomaly_flag,anomaly_score
+100513,Manufacturing,North,Referral,Cashback_Business,4,12,6,4,6,1,0,65,1,0.7042794190070295
+116773,Retail,West,Web,Cashback_Business,3,9,1,3,6,1,0,65,1,0.6677359386244163
+105233,Manufacturing,South,Paid Search,SME_Growth,3,8,3,3,5,1,0,65,1,0.6407484774449868
+123774,Retail,East,Paid Search,Business_Premium,3,8,3,4,4,1,0,65,1,0.6357176646679827
+109230,Financial Services,East,Email,Enterprise_Expansion,3,12,5,3,2,1,0,65,1,0.6344353966502633
+108198,Professional Services,East,Social,Cashback_Business,3,14,5,3,2,1,0,65,1,0.6339447219857336
+115351,Technology,North,Paid Search,SME_Growth,3,7,10,1,3,1,0,65,1,0.6331952068586931
+102809,Construction,South,Web,SME_Growth,3,6,1,0,0,1,0,65,1,0.6186300585519154
+124491,Professional Services,South,Referral,Startup_Accelerator,3,9,7,3,0,1,0,65,1,0.6155918218297749
+124103,Professional Services,East,Referral,Enterprise_Expansion,3,8,1,1,0,1,0,65,1,0.611415875674168
+120811,Hospitality,North,Paid Search,Enterprise_Expansion,3,4,0,3,0,1,0,65,1,0.6088149795385247
+122521,Retail,South,Email,Cashback_Business,3,7,3,0,0,1,0,65,1,0.6086916337873679
+114577,Retail,East,Partner,Business_Premium,3,11,2,2,0,1,0,65,1,0.6071212487672291
+110038,Technology,West,Paid Search,Cashback_Business,3,7,4,0,0,1,0,65,1,0.6064652785961474
+111589,Financial Services,South,Paid Search,Travel_Corporate,3,6,9,3,1,1,0,65,1,0.6055694235898095
+116763,Retail,East,Partner,Business_Premium,3,2,3,2,4,1,0,65,1,0.6054973440647186
+111810,Education,East,Partner,SME_Growth,4,4,1,1,4,1,0,65,1,0.6004475033179304
+115830,Construction,West,Paid Search,Business_Premium,3,3,5,0,3,1,0,65,1,0.5990325032745175
+121366,Logistics,West,Web,Startup_Accelerator,3,4,5,2,5,1,0,65,1,0.5979934722707627
+116494,Education,South,Social,SME_Growth,3,10,3,4,2,1,0,65,1,0.5966274710085023
+110464,Manufacturing,North,Social,Travel_Corporate,4,5,1,0,2,1,0,65,1,0.5956358979022215
+112828,Professional Services,North,Referral,Business_Premium,3,13,4,1,0,1,0,65,1,0.5936940350242926
+111225,Manufacturing,East,Email,Travel_Corporate,3,7,1,3,4,1,0,65,1,0.5930410461291253
+103373,Manufacturing,West,Sales Outreach,Travel_Corporate,3,10,1,0,1,1,0,65,1,0.5904822880991302
+118420,Financial Services,South,Sales Outreach,Business_Premium,3,11,6,1,3,1,0,65,1,0.5892912774236458
+113206,Healthcare,South,Social,Startup_Accelerator,3,10,2,0,2,1,0,65,1,0.5872710322894094
+103666,Education,East,Sales Outreach,Enterprise_Expansion,3,9,1,0,1,1,0,65,1,0.5856502832066282
+109766,Healthcare,East,Email,SME_Growth,3,9,3,1,5,1,0,65,1,0.5853975119788283
+112344,Construction,North,Web,Travel_Corporate,4,3,2,2,3,1,0,65,1,0.5846668474778028
+122017,Professional Services,East,Email,Travel_Corporate,4,9,1,0,3,1,0,65,1,0.5827653246533396
+118829,Education,West,Referral,Travel_Corporate,3,7,3,4,1,1,0,65,1,0.5826550919251938
+108073,Construction,South,Referral,Travel_Corporate,3,10,6,2,0,1,0,65,1,0.581497117174056
+106363,Retail,East,Sales Outreach,Cashback_Business,3,7,3,3,0,1,0,65,1,0.5811285699823349
+122377,Logistics,East,Email,Business_Premium,3,3,3,3,1,1,0,65,1,0.5809494329940351
+108877,Financial Services,East,Partner,Startup_Accelerator,3,8,0,2,3,1,0,65,1,0.580948518237958
+122538,Financial Services,North,Web,Startup_Accelerator,3,7,2,1,0,1,0,65,1,0.5800020916026333
+113928,Logistics,East,Partner,Cashback_Business,4,8,4,0,1,1,0,65,1,0.5796013527411186
+113211,Healthcare,West,Partner,Cashback_Business,3,12,7,1,1,1,0,65,1,0.5791670051524166
+109199,Professional Services,South,Partner,Enterprise_Expansion,3,8,2,3,0,1,0,65,1,0.5789197464348277
+114729,Healthcare,South,Social,Startup_Accelerator,3,8,4,3,0,1,0,65,1,0.5784293218359869
+108723,Healthcare,West,Paid Search,Enterprise_Expansion,4,3,3,0,1,1,0,65,1,0.5783668104122304
+100401,Technology,East,Social,Startup_Accelerator,3,10,5,1,0,1,0,65,1,0.5769144400470961
+120533,Financial Services,East,Web,Travel_Corporate,3,5,6,0,3,1,0,65,1,0.5768235958116948
+122408,Healthcare,South,Paid Search,Startup_Accelerator,3,9,1,1,0,1,0,65,1,0.5753482755952166
+116885,Education,North,Referral,Cashback_Business,4,4,3,2,4,1,0,65,1,0.5747197542323774
+106172,Financial Services,East,Sales Outreach,Startup_Accelerator,3,3,6,1,3,1,0,65,1,0.5729920971344533
+112985,Retail,West,Referral,Cashback_Business,3,7,4,3,0,1,0,65,1,0.5727365044704564
+121628,Construction,North,Web,Business_Premium,5,4,3,3,3,1,0,65,0,0.5709227324405819
+101765,Professional Services,West,Sales Outreach,SME_Growth,3,11,5,1,2,1,0,65,0,0.5707005757315731
+112834,Construction,West,Sales Outreach,Startup_Accelerator,3,9,5,0,4,1,0,65,0,0.5706243559810688
+113986,Financial Services,West,Referral,Travel_Corporate,3,5,2,2,0,1,0,65,0,0.57058359918265
+111203,Manufacturing,South,Email,Startup_Accelerator,3,6,8,0,1,1,0,65,0,0.5702175957198045
+109868,Education,East,Sales Outreach,Business_Premium,3,10,4,0,3,1,0,65,0,0.568942051242421
+121337,Manufacturing,South,Sales Outreach,SME_Growth,3,7,4,4,2,1,0,65,0,0.5687615995266628
+112421,Hospitality,East,Sales Outreach,SME_Growth,3,4,3,3,3,1,0,65,0,0.5680073344201196
+109109,Education,West,Referral,SME_Growth,4,10,4,2,4,1,0,65,0,0.5669927787264669
+106396,Education,North,Email,Travel_Corporate,3,9,7,1,2,1,0,65,0,0.5665348124170655
+120178,Professional Services,East,Email,SME_Growth,3,7,1,3,2,1,0,65,0,0.5663352145638896
+101405,Hospitality,East,Partner,SME_Growth,3,6,0,2,3,1,0,65,0,0.5663313981977545
+102875,Logistics,South,Social,Travel_Corporate,5,9,3,0,3,1,0,65,0,0.5647471134312824
+121001,Manufacturing,South,Referral,Travel_Corporate,3,5,6,3,1,1,0,65,0,0.5643051872349663
+118093,Retail,West,Social,Business_Premium,3,7,3,1,0,1,0,65,0,0.5642753568094384
+101389,Logistics,South,Social,Startup_Accelerator,3,4,4,1,4,1,0,65,0,0.5640038527388856
+118092,Education,North,Social,Enterprise_Expansion,3,8,4,2,4,1,0,65,0,0.5639963334524613
+113624,Logistics,West,Web,Enterprise_Expansion,3,5,4,1,4,1,0,65,0,0.5636820544068688
+115717,Hospitality,South,Sales Outreach,Cashback_Business,3,9,2,1,2,1,0,65,0,0.5622686865975901
+121422,Construction,South,Paid Search,Business_Premium,3,12,4,1,2,1,0,65,0,0.5617185419777433
+121470,Education,North,Paid Search,Cashback_Business,4,7,2,0,3,1,0,65,0,0.5603952362797284
+123174,Construction,East,Email,Cashback_Business,3,5,6,1,4,1,0,65,0,0.5601358167574296
+120151,Construction,North,Email,Travel_Corporate,3,7,5,0,4,1,0,65,0,0.5590526943537804
+107732,Retail,South,Partner,Cashback_Business,3,11,3,0,1,1,0,65,0,0.5586917839499478
+108425,Technology,West,Referral,Business_Premium,3,10,3,0,1,1,0,65,0,0.5580431568518432
+104857,Professional Services,North,Paid Search,Cashback_Business,3,7,5,3,1,1,0,65,0,0.5577741038034688
+100635,Education,South,Email,SME_Growth,3,10,4,0,1,1,0,65,0,0.5570544607410977
+102579,Technology,North,Paid Search,Cashback_Business,3,9,6,1,3,1,0,65,0,0.5562232248269965
+101827,Financial Services,East,Social,Cashback_Business,3,6,3,0,3,1,0,65,0,0.5557797569193293
+108039,Financial Services,North,Email,SME_Growth,3,4,4,3,1,1,0,65,0,0.5549551938475928
+123442,Logistics,South,Sales Outreach,SME_Growth,3,9,2,0,2,1,0,65,0,0.5543104496320793
+109672,Professional Services,South,Email,Cashback_Business,3,11,4,2,1,1,0,65,0,0.5518950871665949
+115585,Hospitality,South,Partner,Cashback_Business,3,6,6,0,3,1,0,65,0,0.5512195742121614
+108962,Construction,West,Web,Enterprise_Expansion,3,7,4,1,0,1,0,65,0,0.5510527449300214
+108166,Hospitality,West,Email,Startup_Accelerator,4,8,6,1,1,1,0,65,0,0.5501902114984537
+106898,Financial Services,East,Web,Enterprise_Expansion,3,6,7,1,1,1,0,65,0,0.549777324734238
+114435,Hospitality,East,Partner,Cashback_Business,5,9,5,1,1,1,0,65,0,0.5497385045745109
+106928,Technology,East,Social,SME_Growth,4,9,3,1,2,1,0,65,0,0.5494014493209145
+122989,Technology,North,Paid Search,Business_Premium,5,8,6,1,1,1,0,65,0,0.5487658662202131
+113988,Manufacturing,North,Partner,SME_Growth,3,8,3,3,3,1,0,65,0,0.5485339430859613
+122068,Hospitality,East,Paid Search,Startup_Accelerator,4,5,3,2,2,1,0,65,0,0.5483731312423312
+118309,Hospitality,North,Email,Enterprise_Expansion,3,4,4,2,1,1,0,65,0,0.5475160593420688
+115546,Professional Services,West,Email,Cashback_Business,3,9,1,1,2,1,0,65,0,0.5462340953183521
+123204,Professional Services,West,Referral,Startup_Accelerator,5,5,3,2,2,1,0,65,0,0.5461902065131381
+116052,Hospitality,South,Sales Outreach,SME_Growth,3,7,4,1,0,1,0,65,0,0.5445491521128503
+120276,Financial Services,North,Referral,SME_Growth,3,6,2,1,2,1,0,65,0,0.5445108511945499
+100591,Manufacturing,East,Social,Business_Premium,4,9,5,1,1,1,0,65,0,0.5444979978278566
+104015,Healthcare,South,Sales Outreach,Cashback_Business,3,6,3,0,3,1,0,65,0,0.5437239759826477
+101167,Education,South,Social,Cashback_Business,3,6,2,1,2,1,0,65,0,0.543291938942849
+119408,Logistics,East,Email,SME_Growth,3,5,3,1,1,1,0,65,0,0.5425478515121621
+102534,Financial Services,West,Sales Outreach,Travel_Corporate,3,7,3,3,3,1,0,65,0,0.5408735653127895
+118554,Manufacturing,South,Sales Outreach,Cashback_Business,3,7,3,0,2,1,0,65,0,0.5401174291760836
+123883,Technology,South,Email,Travel_Corporate,5,7,3,1,3,1,0,65,0,0.5386485871856015
+123039,Education,North,Paid Search,SME_Growth,3,9,4,0,1,1,0,65,0,0.5378114483400929
+120905,Technology,North,Referral,Travel_Corporate,3,8,2,2,3,1,0,65,0,0.5377336110132092
+111962,Retail,West,Web,Travel_Corporate,3,8,4,2,1,1,0,65,0,0.5370689432354568
+109628,Logistics,West,Partner,Cashback_Business,3,5,5,1,2,1,0,65,0,0.5348034450044263
+100887,Financial Services,East,Partner,Travel_Corporate,3,7,2,1,3,1,0,65,0,0.5307469807363133
+100499,Healthcare,West,Partner,Startup_Accelerator,3,6,3,1,2,1,0,65,0,0.5281320294888746
+121667,Construction,West,Paid Search,Travel_Corporate,3,5,4,1,2,1,0,65,0,0.5279104468357788
+116288,Healthcare,South,Paid Search,Travel_Corporate,3,5,5,1,2,1,0,65,0,0.5252033728190189
+122032,Healthcare,West,Email,Cashback_Business,3,8,2,2,2,1,0,65,0,0.5251323147952229
+105460,Education,East,Paid Search,Startup_Accelerator,3,8,3,1,3,1,0,65,0,0.5245020173310789
+122176,Professional Services,West,Social,SME_Growth,3,5,5,1,2,1,0,65,0,0.5242183901644087
+119276,Construction,South,Paid Search,Startup_Accelerator,3,5,4,1,1,1,0,65,0,0.5223645500666956
+117064,Education,North,Email,SME_Growth,3,7,3,1,1,1,0,65,0,0.5210324719085865
+118569,Technology,West,Sales Outreach,Startup_Accelerator,3,7,3,2,2,1,0,65,0,0.5177526248029702
+121811,Construction,West,Web,SME_Growth,3,10,8,6,1,0,0,10,1,0.6926990677825982
+113175,Logistics,North,Paid Search,Enterprise_Expansion,3,10,8,0,7,0,0,10,1,0.6791807990858619
+105276,Hospitality,North,Sales Outreach,Startup_Accelerator,2,9,5,5,6,0,0,10,1,0.6784723006380271
+120488,Technology,West,Referral,Travel_Corporate,2,9,10,4,5,0,0,10,1,0.672149354744396
+117714,Financial Services,North,Email,Cashback_Business,2,14,13,2,0,0,0,10,1,0.6681120353957472
+104456,Logistics,South,Partner,SME_Growth,2,7,12,5,1,0,0,10,1,0.666865352879285
+117009,Professional Services,East,Email,Enterprise_Expansion,2,7,10,5,2,0,0,10,1,0.6668056357755952
+121946,Healthcare,South,Email,Cashback_Business,2,16,6,2,5,0,0,10,1,0.6663731222955839
+119026,Retail,East,Social,Enterprise_Expansion,3,13,4,5,3,0,0,10,1,0.665829556136032
+106508,Logistics,West,Web,Travel_Corporate,4,13,1,2,5,0,0,10,1,0.6651650975820214
+117071,Healthcare,East,Email,Enterprise_Expansion,3,10,3,5,4,0,0,10,1,0.664492408844374
+102126,Healthcare,South,Referral,Cashback_Business,2,17,3,2,6,0,0,10,1,0.6627094864231308
+110257,Financial Services,West,Email,Travel_Corporate,2,6,4,5,6,0,0,10,1,0.6611596662205674
+119644,Technology,West,Sales Outreach,Startup_Accelerator,3,10,7,4,1,0,0,10,1,0.6583121597383513
+101873,Healthcare,North,Referral,Travel_Corporate,2,7,4,5,5,0,0,10,1,0.6560151632988153
+100415,Professional Services,West,Sales Outreach,Travel_Corporate,2,14,3,2,5,0,0,10,1,0.6558819222826086
+106411,Financial Services,West,Sales Outreach,Enterprise_Expansion,3,6,8,2,6,0,0,10,1,0.6531025100285553
+120919,Healthcare,North,Sales Outreach,SME_Growth,2,15,4,0,6,0,0,10,1,0.6523195282597039
+100079,Construction,East,Web,Business_Premium,2,7,4,5,6,0,0,10,1,0.651433369449976
+110832,Professional Services,South,Paid Search,Enterprise_Expansion,3,8,2,0,7,0,0,10,1,0.6511782629875186
+115260,Technology,South,Email,Enterprise_Expansion,2,6,6,8,3,0,0,10,1,0.6504719434818449
+122649,Manufacturing,East,Partner,Travel_Corporate,2,5,7,3,6,0,0,10,1,0.6476647430834764
+105245,Manufacturing,South,Web,Business_Premium,2,11,7,5,2,0,0,10,1,0.6417022878868927
+110821,Healthcare,North,Partner,Business_Premium,2,6,3,6,3,0,0,10,1,0.6410933182237358
+103663,Technology,South,Web,Business_Premium,2,5,4,4,6,0,0,10,1,0.6409307920998891
+114182,Financial Services,East,Web,Startup_Accelerator,2,14,2,3,4,0,0,10,1,0.6391170910990037
+118984,Financial Services,West,Partner,Startup_Accelerator,3,9,1,4,4,0,0,10,1,0.63908760719938
+117918,Logistics,South,Web,SME_Growth,3,6,0,0,0,0,0,10,1,0.6386007094300774
+120381,Education,South,Sales Outreach,SME_Growth,3,8,8,3,3,0,0,10,1,0.6380437342539726
+114439,Hospitality,East,Email,Travel_Corporate,2,5,9,5,2,0,0,10,1,0.6377487143518646
+102128,Manufacturing,East,Paid Search,Enterprise_Expansion,2,10,6,5,2,0,0,10,1,0.6371145030158656
+108059,Construction,South,Partner,Travel_Corporate,2,10,3,4,5,0,0,10,1,0.6367014002295144
+108058,Technology,West,Web,Enterprise_Expansion,2,8,8,5,1,0,0,10,1,0.6347860857445645
+102899,Technology,North,Referral,Enterprise_Expansion,2,3,1,0,6,0,0,10,1,0.6332683894151434
+118425,Retail,South,Web,Startup_Accelerator,2,9,6,2,6,0,0,10,1,0.6332060517827748
+116936,Education,South,Web,Cashback_Business,2,2,10,4,3,0,0,10,1,0.633016756749254
+108784,Logistics,East,Email,SME_Growth,3,6,1,4,5,0,0,10,1,0.6324097360444679
+102428,Logistics,East,Web,Travel_Corporate,3,8,7,4,1,0,0,10,1,0.6320527430663877
+113969,Technology,North,Web,Cashback_Business,3,10,9,1,3,0,0,10,1,0.6316467658344219
+123471,Retail,West,Social,SME_Growth,2,14,9,0,0,0,0,10,1,0.6312068134835762
+124251,Manufacturing,South,Paid Search,Travel_Corporate,2,10,1,2,7,0,0,10,1,0.6310834982699685
+123498,Professional Services,West,Social,SME_Growth,2,14,7,3,0,0,0,10,1,0.6308197877251782
+107848,Hospitality,East,Sales Outreach,Startup_Accelerator,3,7,3,6,1,0,0,10,1,0.6304637131227484
+123557,Education,South,Email,Startup_Accelerator,2,2,4,2,6,0,0,10,1,0.6301762609106704
+107490,Retail,South,Email,Enterprise_Expansion,3,5,4,5,4,0,0,10,1,0.6294202458760559
+108192,Hospitality,South,Web,Enterprise_Expansion,3,6,7,3,0,0,0,10,1,0.6289853140079434
+109037,Logistics,West,Email,Startup_Accelerator,6,2,2,2,1,0,0,10,1,0.6288132205499375
+120720,Manufacturing,East,Paid Search,Cashback_Business,2,4,6,5,4,0,0,10,1,0.6287489942879494
+119427,Logistics,North,Sales Outreach,SME_Growth,3,12,2,0,5,0,0,10,1,0.6281649044840915
+123316,Education,North,Partner,Startup_Accelerator,3,2,0,2,3,0,0,10,1,0.6279927312045058
+121188,Hospitality,South,Partner,SME_Growth,2,9,4,4,5,0,0,10,1,0.6270479591684758
+112447,Education,South,Sales Outreach,Cashback_Business,2,12,4,5,3,0,0,10,1,0.6268192943758645
+113879,Logistics,North,Referral,Travel_Corporate,3,3,1,3,4,0,0,10,1,0.6261715875048426
+114518,Hospitality,West,Partner,Travel_Corporate,3,3,1,0,5,0,0,10,1,0.626099293842529
+121496,Professional Services,South,Referral,Startup_Accelerator,3,9,1,0,5,0,0,10,1,0.6245805357488113
+119272,Manufacturing,South,Social,Business_Premium,2,12,8,2,0,0,0,10,1,0.6241287325500929
+120886,Manufacturing,East,Paid Search,Startup_Accelerator,2,8,6,5,4,0,0,10,1,0.6238464363090277
+123925,Financial Services,South,Email,SME_Growth,2,13,8,2,3,0,0,10,1,0.6226897377638863
+116529,Professional Services,East,Social,Startup_Accelerator,3,12,7,1,1,0,0,10,1,0.622081193071806
+111239,Healthcare,West,Sales Outreach,Enterprise_Expansion,2,8,2,4,6,0,0,10,1,0.621108362639397
+119379,Hospitality,South,Partner,Cashback_Business,2,10,0,0,0,0,0,10,1,0.6209016221819688
+117468,Retail,East,Email,Enterprise_Expansion,2,13,6,4,3,0,0,10,1,0.6207119256155565
+106806,Healthcare,South,Email,Cashback_Business,2,6,4,7,2,0,0,10,1,0.62058860460157
+120174,Professional Services,North,Social,Enterprise_Expansion,2,7,4,5,4,0,0,10,1,0.6204325072075353
+121256,Technology,East,Sales Outreach,SME_Growth,2,1,9,1,0,0,0,10,1,0.6204186247204555
+105025,Manufacturing,South,Email,Travel_Corporate,2,9,8,5,1,0,0,10,1,0.6195442325920105
+109612,Retail,North,Social,Enterprise_Expansion,2,9,6,1,6,0,0,10,1,0.6193503613625935
+123254,Education,South,Sales Outreach,SME_Growth,2,6,9,0,5,0,0,10,1,0.6184144567121854
+124773,Healthcare,North,Sales Outreach,Travel_Corporate,2,8,8,5,2,0,0,10,1,0.6181463503876401
+100468,Healthcare,East,Partner,Travel_Corporate,3,4,2,0,0,0,0,10,1,0.6179231257221031
+105120,Retail,West,Paid Search,Startup_Accelerator,2,9,3,3,6,0,0,10,1,0.6178932208036019
+105836,Manufacturing,East,Partner,Cashback_Business,3,12,5,2,3,0,0,10,1,0.6172154800971076
+123454,Financial Services,North,Paid Search,Startup_Accelerator,3,3,10,1,2,0,0,10,1,0.6171693561715426
+107163,Financial Services,North,Partner,SME_Growth,2,8,6,5,3,0,0,10,1,0.6169880137050783
+114996,Professional Services,East,Email,Travel_Corporate,2,8,10,3,3,0,0,10,1,0.6169755428680576
+104988,Professional Services,East,Partner,Business_Premium,4,5,7,3,4,0,0,10,1,0.61663880805896
+113040,Retail,West,Partner,Startup_Accelerator,2,3,6,2,6,0,0,10,1,0.6163554900994447
+101470,Logistics,South,Web,Cashback_Business,2,11,9,1,5,0,0,10,1,0.6160558485270425
+124611,Professional Services,East,Social,Business_Premium,2,2,5,4,0,0,0,10,1,0.6160164103358913
+119643,Retail,South,Social,Startup_Accelerator,2,16,4,2,3,0,0,10,1,0.6152935977898967
+113103,Education,North,Sales Outreach,Cashback_Business,3,3,3,3,5,0,0,10,1,0.6146285949968413
+105162,Retail,South,Referral,SME_Growth,3,11,4,4,2,0,0,10,1,0.6145033838153425
+105316,Healthcare,East,Partner,Startup_Accelerator,2,2,7,0,4,0,0,10,1,0.6138133793917993
+116735,Construction,East,Social,Cashback_Business,3,8,9,2,0,0,0,10,1,0.6137429308517256
+116229,Construction,East,Paid Search,Startup_Accelerator,2,8,7,5,2,0,0,10,1,0.6135340576599788
+120561,Construction,North,Email,Enterprise_Expansion,3,6,6,0,5,0,0,10,1,0.6134413423738172
+111961,Financial Services,West,Sales Outreach,SME_Growth,2,9,3,5,2,0,0,10,1,0.6128637396676514
+104637,Retail,East,Web,Business_Premium,3,8,2,4,4,0,0,10,1,0.6125443946056637
+100751,Retail,West,Social,Enterprise_Expansion,2,4,3,2,6,0,0,10,1,0.612137965190989
+114830,Manufacturing,East,Partner,Enterprise_Expansion,3,4,2,5,3,0,0,10,1,0.6120552266013408
+121439,Healthcare,West,Partner,SME_Growth,2,10,5,4,4,0,0,10,1,0.612052036632129
+124990,Education,South,Sales Outreach,Cashback_Business,2,7,2,6,3,0,0,10,1,0.6117221011795605
+114880,Healthcare,East,Sales Outreach,Startup_Accelerator,4,13,4,1,0,0,0,10,1,0.6115373710575124
+116759,Retail,North,Web,Cashback_Business,2,2,2,0,5,0,0,10,1,0.6113954343315604
+102897,Technology,South,Partner,Startup_Accelerator,4,3,3,0,4,0,0,10,1,0.6113162417332554
+119548,Healthcare,West,Social,Cashback_Business,3,3,4,2,0,0,0,10,1,0.6111968981370399
+108114,Construction,North,Social,Travel_Corporate,2,11,4,0,6,0,0,10,1,0.6106529329388682
+117175,Technology,East,Sales Outreach,SME_Growth,3,4,1,2,4,0,0,10,1,0.6104963403915856
+113170,Education,East,Email,Travel_Corporate,2,5,2,5,4,0,0,10,1,0.6094630011814112
+111839,Technology,South,Sales Outreach,Travel_Corporate,3,9,3,0,0,0,0,10,1,0.6093696542369539
+119401,Retail,South,Email,Startup_Accelerator,2,3,3,0,6,0,0,10,1,0.6090734020724327
+120447,Logistics,South,Paid Search,Startup_Accelerator,2,12,3,4,2,0,0,10,1,0.6088584573784709
+121031,Logistics,South,Email,Startup_Accelerator,2,7,5,0,8,0,0,10,1,0.6085129013886771
+117140,Professional Services,East,Partner,Business_Premium,2,13,6,2,4,0,0,10,1,0.6081578786398548
+111970,Construction,West,Partner,SME_Growth,2,10,2,6,1,0,0,10,1,0.6079880564560468
+112800,Technology,South,Partner,Startup_Accelerator,2,11,3,5,2,0,0,10,1,0.6077091855365775
+107495,Construction,North,Web,Enterprise_Expansion,2,3,1,4,0,0,0,10,1,0.6076153851621297
+103669,Professional Services,South,Email,SME_Growth,2,5,2,6,2,0,0,10,1,0.6074364451233701
+111443,Professional Services,East,Email,Travel_Corporate,3,12,3,0,0,0,0,10,1,0.6072957331291388
+115479,Construction,South,Web,Business_Premium,2,7,6,5,0,0,0,10,1,0.6072033295275192
+112723,Construction,North,Social,Startup_Accelerator,2,10,4,5,3,0,0,10,1,0.6068030426763865
+109405,Technology,North,Referral,Cashback_Business,2,12,2,5,1,0,0,10,1,0.606637225323807
+108345,Financial Services,East,Partner,Startup_Accelerator,3,4,9,1,1,0,0,10,1,0.6065525154781438
+110450,Professional Services,North,Web,Cashback_Business,4,5,5,0,5,0,0,10,1,0.6064119822944147
+123056,Construction,West,Sales Outreach,Business_Premium,4,7,6,0,0,0,0,10,1,0.6062770614176947
+107731,Hospitality,South,Web,Travel_Corporate,2,3,1,0,0,0,0,10,1,0.6061603794725402
+102187,Manufacturing,East,Partner,Business_Premium,2,4,4,2,6,0,0,10,1,0.605151663860743
+117298,Construction,West,Social,Business_Premium,2,9,4,5,3,0,0,10,1,0.6049957453116299
+108942,Financial Services,South,Sales Outreach,Startup_Accelerator,2,3,1,3,5,0,0,10,1,0.6049175128660506
+111359,Logistics,West,Referral,Business_Premium,2,2,1,0,5,0,0,10,1,0.6046275650471362
+115835,Professional Services,East,Sales Outreach,Business_Premium,3,3,5,1,0,0,0,10,1,0.6045820820450233
+113759,Professional Services,West,Sales Outreach,SME_Growth,3,7,5,3,4,0,0,10,1,0.6045440766799226
+111215,Construction,West,Email,Cashback_Business,3,2,4,1,4,0,0,10,1,0.6035819261337605
+117960,Manufacturing,North,Sales Outreach,Business_Premium,3,5,7,1,4,0,0,10,1,0.6033349679243634
+120569,Financial Services,West,Referral,Enterprise_Expansion,3,12,7,0,2,0,0,10,1,0.6029778079651213
+117077,Retail,South,Web,Enterprise_Expansion,2,5,7,1,6,0,0,10,1,0.6024239774225926
+116248,Professional Services,East,Email,Business_Premium,2,0,8,1,0,0,0,10,1,0.602421070476758
+122669,Healthcare,West,Referral,SME_Growth,3,3,6,3,0,0,0,10,1,0.6023076885123521
+116513,Healthcare,North,Sales Outreach,Business_Premium,2,4,4,0,6,0,0,10,1,0.6022460074789161
+104885,Retail,East,Partner,Enterprise_Expansion,3,4,3,4,3,0,0,10,1,0.6022193298132327
+101945,Hospitality,West,Social,Enterprise_Expansion,3,7,2,2,6,0,0,10,1,0.6015616799248944
+104907,Manufacturing,East,Web,SME_Growth,2,11,5,0,6,0,0,10,1,0.600368513999006
+103053,Professional Services,North,Paid Search,Travel_Corporate,3,10,3,2,5,0,0,10,1,0.5995486149696582
+103119,Professional Services,North,Social,Travel_Corporate,2,6,9,4,2,0,0,10,1,0.5992079634909115
+124971,Professional Services,North,Sales Outreach,Business_Premium,2,11,2,1,6,0,0,10,1,0.5990201250211957
+107216,Retail,North,Referral,Startup_Accelerator,2,5,4,4,4,0,0,10,1,0.5985634166000513
+100881,Logistics,West,Email,SME_Growth,2,6,9,0,5,0,0,10,1,0.5983097113665246
+103120,Education,North,Web,Startup_Accelerator,2,3,1,1,0,0,0,10,1,0.5982200856836226
+101075,Education,West,Sales Outreach,Travel_Corporate,3,8,4,5,2,0,0,10,1,0.5981065759619499
+104946,Construction,West,Social,Travel_Corporate,3,5,7,1,4,0,0,10,1,0.5979832259898814
+114201,Manufacturing,East,Partner,Startup_Accelerator,2,6,0,4,0,0,0,10,1,0.5978755464020487
+115274,Logistics,South,Sales Outreach,Cashback_Business,2,13,7,3,0,0,0,10,1,0.5977629491831541
+120320,Logistics,West,Social,SME_Growth,2,10,6,5,2,0,0,10,1,0.5976184235136811
+110473,Financial Services,East,Partner,SME_Growth,2,2,1,0,2,0,0,10,1,0.5974339633450056
+109798,Professional Services,West,Social,SME_Growth,2,3,6,0,0,0,0,10,1,0.5972761572210241
+110358,Retail,South,Partner,Cashback_Business,4,6,5,4,1,0,0,10,1,0.5970699543777597
+124976,Construction,West,Web,Travel_Corporate,2,5,2,3,6,0,0,10,1,0.5970023171570991
+122835,Construction,South,Web,Cashback_Business,2,4,3,6,1,0,0,10,1,0.5967435999248427
+106930,Professional Services,North,Partner,SME_Growth,2,10,3,4,4,0,0,10,1,0.5966629401593729
+104185,Healthcare,West,Email,Enterprise_Expansion,2,2,2,1,6,0,0,10,1,0.5962025421415375
+104447,Hospitality,North,Partner,Travel_Corporate,2,9,10,2,2,0,0,10,1,0.595748685701903
+117914,Hospitality,East,Web,SME_Growth,3,7,4,0,5,0,0,10,1,0.595546915222186
+107036,Logistics,East,Email,Startup_Accelerator,3,9,6,0,4,0,0,10,1,0.5954160577545914
+105390,Professional Services,South,Social,Travel_Corporate,2,5,12,2,0,0,0,10,1,0.5952952962045355
+107017,Technology,North,Referral,Business_Premium,3,8,9,2,2,0,0,10,1,0.5952809635317446
+124323,Manufacturing,West,Social,Travel_Corporate,2,0,3,0,2,0,0,10,1,0.5952480230095922
+101969,Financial Services,East,Partner,Business_Premium,3,7,5,4,1,0,0,10,1,0.5949767746595057
+112535,Education,West,Sales Outreach,SME_Growth,3,7,2,4,1,0,0,10,1,0.5949615178803553
+113090,Logistics,North,Sales Outreach,Enterprise_Expansion,2,9,4,5,1,0,0,10,1,0.5949575289281566
+109871,Financial Services,East,Paid Search,Enterprise_Expansion,3,4,2,2,5,0,0,10,1,0.5948723074281349
+103033,Technology,East,Partner,Travel_Corporate,3,7,9,1,3,0,0,10,1,0.5946319435696878
+102867,Logistics,North,Referral,Travel_Corporate,3,9,4,3,4,0,0,10,1,0.5942178974197863
+122884,Manufacturing,East,Sales Outreach,Enterprise_Expansion,2,12,3,4,2,0,0,10,1,0.5942040015358853
+116061,Financial Services,North,Paid Search,Business_Premium,2,11,8,3,1,0,0,10,1,0.5941905619822784
+104439,Education,North,Sales Outreach,Startup_Accelerator,3,10,3,1,5,0,0,10,1,0.5932507432369823
+120664,Professional Services,West,Web,Travel_Corporate,3,3,4,0,4,0,0,10,1,0.5928434586658974
+124247,Technology,West,Referral,Startup_Accelerator,3,12,5,2,3,0,0,10,1,0.5927373949606631
+105538,Construction,East,Email,Startup_Accelerator,2,10,7,3,3,0,0,10,1,0.5925369793391982
+119657,Hospitality,North,Email,Startup_Accelerator,2,11,4,1,6,0,0,10,1,0.5922302317098588
+107580,Hospitality,East,Web,Startup_Accelerator,2,3,8,0,0,0,0,10,1,0.5922156141515744
+117451,Logistics,East,Web,Startup_Accelerator,2,4,8,2,5,0,0,10,1,0.5918730730519601
+116806,Education,North,Paid Search,Startup_Accelerator,4,9,5,2,4,0,0,10,1,0.5915842207098686
+105826,Technology,South,Paid Search,Cashback_Business,3,5,7,0,0,0,0,10,1,0.5914404621033502
+106308,Logistics,West,Referral,Cashback_Business,3,13,4,1,3,0,0,10,1,0.5912726321141479
+108023,Healthcare,West,Referral,SME_Growth,2,13,3,0,0,0,0,10,1,0.5902482831035539
+120587,Manufacturing,East,Referral,Enterprise_Expansion,2,5,2,0,6,0,0,10,1,0.5901967144462769
+110532,Manufacturing,East,Partner,Cashback_Business,2,11,2,4,1,0,0,10,1,0.5900907964991846
+110428,Healthcare,North,Paid Search,SME_Growth,3,5,5,3,0,0,0,10,1,0.5898014744736194
+114345,Financial Services,East,Email,Enterprise_Expansion,2,6,0,4,0,0,0,10,1,0.5897255251908601
+123831,Hospitality,East,Social,Business_Premium,2,3,7,3,3,0,0,10,1,0.5895550588345351
+113384,Logistics,North,Web,Business_Premium,4,9,2,0,1,0,0,10,1,0.5888850498025305
+109347,Professional Services,North,Paid Search,SME_Growth,3,7,4,0,0,0,0,10,1,0.5888431039787804
+123132,Technology,South,Web,Travel_Corporate,2,6,1,5,0,0,0,10,1,0.5888206136626533
+109091,Hospitality,West,Email,Startup_Accelerator,2,2,2,3,1,0,0,10,1,0.5888160821388619
+103096,Technology,West,Email,SME_Growth,4,3,4,2,4,0,0,10,1,0.5887783002932466
+118556,Professional Services,East,Paid Search,Travel_Corporate,4,6,6,3,2,0,0,10,1,0.5887603902105534
+114169,Retail,West,Partner,Business_Premium,2,3,1,2,0,0,0,10,1,0.588594834643205
+105849,Retail,North,Web,Business_Premium,2,2,0,2,2,0,0,10,1,0.5883965589287891
+122507,Healthcare,West,Paid Search,Business_Premium,2,5,6,2,5,0,0,10,1,0.5882863445585101
+124685,Professional Services,West,Sales Outreach,SME_Growth,2,9,3,5,2,0,0,10,1,0.5881841288907954
+110656,Logistics,North,Email,SME_Growth,3,4,5,0,4,0,0,10,1,0.5878879893552897
+116460,Professional Services,East,Sales Outreach,Business_Premium,2,12,2,0,0,0,0,10,1,0.5877857997673676
+110504,Logistics,South,Sales Outreach,SME_Growth,2,6,9,3,2,0,0,10,1,0.5877656034611468
+119529,Professional Services,West,Paid Search,Travel_Corporate,3,4,2,0,0,0,0,10,1,0.5875779319255151
+111939,Professional Services,East,Web,SME_Growth,3,5,7,0,4,0,0,10,1,0.5875102612760434
+122296,Professional Services,West,Sales Outreach,Cashback_Business,2,6,4,5,2,0,0,10,1,0.5874409785463404
+119932,Financial Services,South,Referral,Enterprise_Expansion,2,11,7,3,1,0,0,10,1,0.5872904547003612
+109264,Retail,South,Email,Travel_Corporate,3,5,5,0,0,0,0,10,1,0.5872755270677819
+114523,Manufacturing,East,Referral,Cashback_Business,2,0,4,0,4,0,0,10,1,0.5868940914781205
+120890,Retail,West,Email,Startup_Accelerator,4,8,2,0,2,0,0,10,1,0.5865229669858032
+100071,Professional Services,South,Social,Cashback_Business,2,8,1,1,0,0,0,10,1,0.5865223313118071
+121519,Construction,East,Paid Search,Business_Premium,2,6,4,4,3,0,0,10,1,0.5863595175889452
+113611,Education,East,Web,Business_Premium,3,3,5,0,1,0,0,10,1,0.5863033647964129
+123984,Retail,East,Social,SME_Growth,3,10,5,0,4,0,0,10,1,0.58622545796191
+119042,Logistics,East,Paid Search,SME_Growth,3,12,3,2,0,0,0,10,1,0.5860736895695684
+116926,Construction,South,Referral,Travel_Corporate,4,4,8,1,2,0,0,10,1,0.5860726984889557
+102417,Manufacturing,West,Social,Startup_Accelerator,2,15,5,3,1,0,0,10,1,0.586034703339138
+122479,Construction,North,Email,SME_Growth,2,15,2,3,0,0,0,10,1,0.5860321771616139
+121537,Healthcare,West,Email,Business_Premium,2,8,2,0,0,0,0,10,1,0.5859692195449147
+115997,Education,West,Paid Search,Cashback_Business,3,11,1,0,1,0,0,10,1,0.5856723743093738
+121285,Professional Services,East,Sales Outreach,Enterprise_Expansion,2,1,2,1,5,0,0,10,1,0.585519406635781
+104391,Education,South,Sales Outreach,Cashback_Business,3,3,4,0,3,0,0,10,1,0.5853060667153586
+111598,Manufacturing,East,Sales Outreach,SME_Growth,3,5,0,2,2,0,0,10,1,0.585234627465279
+100998,Retail,South,Sales Outreach,Startup_Accelerator,3,6,8,0,2,0,0,10,1,0.5852317687960292
+118610,Professional Services,North,Referral,Travel_Corporate,2,3,2,0,0,0,0,10,1,0.5851726748367113
+116368,Logistics,West,Email,Business_Premium,2,14,6,0,0,0,0,10,1,0.5850214235825715
+100640,Technology,North,Web,Enterprise_Expansion,4,6,6,1,0,0,0,10,1,0.5847213830052078
+111591,Professional Services,West,Web,Business_Premium,3,3,2,1,0,0,0,10,1,0.5845896846276135
+114095,Professional Services,East,Social,Travel_Corporate,3,8,2,3,0,0,0,10,1,0.5844457243812816
+100154,Construction,South,Sales Outreach,Cashback_Business,2,10,7,1,4,0,0,10,1,0.5842896271061051
+114608,Hospitality,North,Referral,Travel_Corporate,2,3,7,4,1,0,0,10,1,0.5842796880691754
+124680,Hospitality,West,Social,Cashback_Business,2,4,5,3,5,0,0,10,1,0.5841652296982803
+109853,Construction,South,Partner,Startup_Accelerator,2,11,10,1,2,0,0,10,1,0.5841161602226288
+103227,Logistics,South,Paid Search,Startup_Accelerator,2,8,0,0,1,0,0,10,1,0.5840528140613698
+122178,Manufacturing,North,Email,Startup_Accelerator,3,10,4,1,3,0,0,10,1,0.5837484714025722
+116100,Healthcare,South,Paid Search,Startup_Accelerator,2,6,5,1,6,0,0,10,1,0.5836020353355506
+120629,Construction,North,Partner,Business_Premium,2,8,1,1,6,0,0,10,1,0.58342985893277
+123143,Professional Services,West,Sales Outreach,Cashback_Business,2,9,5,5,1,0,0,10,1,0.5834150987229141
+109529,Technology,West,Sales Outreach,Travel_Corporate,2,8,1,4,4,0,0,10,1,0.5833777318236546
+104155,Healthcare,West,Social,Startup_Accelerator,2,14,2,0,0,0,0,10,1,0.5832685457283843
+118477,Logistics,North,Paid Search,Enterprise_Expansion,3,10,2,0,4,0,0,10,1,0.5831490355510434
+108887,Manufacturing,West,Partner,Business_Premium,2,13,0,3,1,0,0,10,1,0.5830196096781226
+111321,Manufacturing,West,Web,Cashback_Business,2,12,3,4,0,0,0,10,1,0.58239391157505
+109362,Logistics,North,Paid Search,SME_Growth,3,3,6,1,2,0,0,10,1,0.5822801337113606
+114219,Technology,East,Sales Outreach,Cashback_Business,3,6,6,4,2,0,0,10,1,0.5822401286509138
+117408,Financial Services,South,Partner,Business_Premium,2,16,4,2,1,0,0,10,1,0.582163769645376
+114863,Financial Services,North,Referral,Enterprise_Expansion,2,3,3,2,0,0,0,10,1,0.5821577711499591
+102235,Construction,South,Email,Enterprise_Expansion,3,11,2,1,0,0,0,10,1,0.582143906073676
+118109,Professional Services,West,Web,Business_Premium,2,5,5,5,0,0,0,10,1,0.5820771471478761
+107369,Healthcare,East,Paid Search,Travel_Corporate,3,6,2,1,5,0,0,10,1,0.5819825069938349
+106189,Manufacturing,East,Paid Search,SME_Growth,3,9,7,1,0,0,0,10,1,0.5818588250206806
+119176,Technology,South,Email,Startup_Accelerator,2,9,4,2,5,0,0,10,1,0.5817113218965395
+123383,Healthcare,North,Sales Outreach,SME_Growth,2,14,5,2,1,0,0,10,1,0.5816556591468782
+110230,Healthcare,North,Email,Startup_Accelerator,2,8,1,2,0,0,0,10,1,0.5815134854302465
+111053,Hospitality,North,Sales Outreach,Business_Premium,2,7,4,2,5,0,0,10,1,0.5814007931501888
+110535,Manufacturing,North,Partner,Cashback_Business,2,12,1,4,2,0,0,10,1,0.5813479386920763
+100024,Construction,East,Social,Startup_Accelerator,2,6,7,4,3,0,0,10,1,0.5813234251300509
+113997,Financial Services,South,Paid Search,SME_Growth,4,8,5,1,4,0,0,10,1,0.5811130980990759
+121475,Manufacturing,West,Paid Search,SME_Growth,2,7,7,0,5,0,0,10,1,0.5807997519841378
+118618,Hospitality,South,Sales Outreach,Enterprise_Expansion,2,12,1,3,0,0,0,10,1,0.5807841809248168
+124960,Construction,South,Paid Search,Business_Premium,2,10,1,1,5,0,0,10,1,0.5805327599683571
+112056,Logistics,West,Email,Travel_Corporate,2,10,5,4,2,0,0,10,1,0.5804746063179702
+117779,Construction,North,Partner,Business_Premium,2,6,8,3,4,0,0,10,1,0.580358082936139
+113741,Manufacturing,North,Partner,Enterprise_Expansion,2,2,6,2,0,0,0,10,1,0.5802622673973401
+106768,Logistics,North,Email,Business_Premium,2,7,5,0,5,0,0,10,1,0.5799517818239136
+123913,Financial Services,West,Web,Travel_Corporate,2,5,4,1,7,0,0,10,1,0.5797887246011207
+100607,Education,East,Web,Travel_Corporate,2,6,1,0,0,0,0,10,1,0.5796420961386155
+118934,Retail,West,Paid Search,Startup_Accelerator,2,3,0,0,2,0,0,10,1,0.5796089186093271
+112978,Logistics,West,Email,Enterprise_Expansion,2,9,7,3,0,0,0,10,1,0.5794336879426022
+121365,Technology,North,Partner,Travel_Corporate,3,10,5,1,4,0,0,10,1,0.5793805624509639
+117018,Financial Services,West,Sales Outreach,Startup_Accelerator,3,5,7,3,2,0,0,10,1,0.5790970622889092
+107595,Education,West,Social,Enterprise_Expansion,2,2,7,0,2,0,0,10,1,0.578923601405967
+118278,Professional Services,East,Sales Outreach,Cashback_Business,2,8,0,2,0,0,0,10,1,0.578861833028924
+110403,Financial Services,West,Email,Enterprise_Expansion,3,4,6,2,0,0,0,10,1,0.5788455588468784
+104514,Construction,South,Partner,Business_Premium,2,6,1,1,0,0,0,10,1,0.5783107466730734
+123455,Retail,West,Email,Enterprise_Expansion,2,7,5,4,0,0,0,10,1,0.5781012903402603
+105727,Financial Services,East,Partner,SME_Growth,2,5,7,4,0,0,0,10,1,0.5777965768065666
+102537,Construction,East,Email,Startup_Accelerator,2,7,5,3,4,0,0,10,1,0.5776934197826303
+116660,Education,West,Web,Enterprise_Expansion,2,9,2,0,5,0,0,10,1,0.5773490056276454
+107324,Financial Services,South,Email,Travel_Corporate,2,10,7,0,4,0,0,10,1,0.5771241341734206
+105545,Logistics,West,Partner,Enterprise_Expansion,2,2,6,4,2,0,0,10,1,0.5770675758320528
+119138,Financial Services,North,Partner,Cashback_Business,2,9,0,2,5,0,0,10,1,0.576998093759416
+122397,Financial Services,North,Referral,Business_Premium,2,3,6,4,1,0,0,10,1,0.5768803151151909
+102998,Construction,South,Paid Search,Travel_Corporate,3,10,6,3,1,0,0,10,1,0.5767132583251386
+119412,Construction,East,Partner,Cashback_Business,3,6,3,1,5,0,0,10,1,0.5760927967894497
+116837,Healthcare,South,Partner,Cashback_Business,2,2,3,3,2,0,0,10,1,0.5759786023513701
+104509,Technology,East,Sales Outreach,Startup_Accelerator,2,4,0,1,1,0,0,10,1,0.5759631456375979
+109954,Manufacturing,West,Email,Enterprise_Expansion,2,2,4,3,0,0,0,10,1,0.5758345636525822
+112423,Hospitality,West,Email,Cashback_Business,3,12,1,2,1,0,0,10,1,0.575742239121711
+107707,Technology,East,Email,SME_Growth,2,10,0,1,0,0,0,10,1,0.5755682723422588
+105521,Logistics,South,Email,Cashback_Business,2,6,3,5,2,0,0,10,1,0.5754846613738797
+112660,Education,West,Email,Enterprise_Expansion,2,6,1,1,0,0,0,10,1,0.5751309338005134
+111393,Education,North,Email,Business_Premium,2,4,6,0,4,0,0,10,1,0.5749941346245111
+106361,Education,West,Social,Business_Premium,2,14,2,3,1,0,0,10,1,0.5745943801721294
+107245,Technology,West,Paid Search,Business_Premium,2,2,8,3,1,0,0,10,1,0.5744843475707712
+122299,Education,South,Email,Business_Premium,2,7,1,1,0,0,0,10,1,0.5743138576452755
+102065,Education,East,Sales Outreach,Enterprise_Expansion,2,3,5,4,1,0,0,10,1,0.5742962764502444
+107784,Education,West,Partner,SME_Growth,2,7,6,4,4,0,0,10,1,0.5741308863230005
+112553,Technology,East,Paid Search,Enterprise_Expansion,2,9,2,4,3,0,0,10,1,0.574124171432702
+107777,Hospitality,South,Web,Business_Premium,2,13,4,3,2,0,0,10,1,0.5741216724987102
+112397,Hospitality,South,Social,Travel_Corporate,2,2,5,1,0,0,0,10,1,0.5741197015603248
+107802,Logistics,West,Web,Cashback_Business,2,8,5,4,3,0,0,10,1,0.574113417124844
+115786,Education,North,Sales Outreach,SME_Growth,3,2,5,1,1,0,0,10,1,0.5739660972177802
+101546,Healthcare,South,Web,Business_Premium,2,14,5,0,2,0,0,10,1,0.5739493552946281
+116102,Retail,West,Email,Cashback_Business,2,4,6,3,4,0,0,10,1,0.5737561294701011
+103652,Education,East,Sales Outreach,Enterprise_Expansion,2,5,7,0,4,0,0,10,1,0.5737541065464061
+109600,Hospitality,West,Partner,Enterprise_Expansion,2,11,5,1,5,0,0,10,1,0.5736414554385334
+119250,Construction,North,Web,Cashback_Business,2,9,4,4,1,0,0,10,1,0.5735965753292473
+123889,Logistics,East,Web,SME_Growth,2,7,2,0,0,0,0,10,1,0.5733197583227972
+102272,Hospitality,North,Paid Search,Enterprise_Expansion,3,9,5,0,4,0,0,10,1,0.5732976793062297
+106056,Hospitality,South,Referral,Startup_Accelerator,4,8,3,2,0,0,0,10,1,0.5731499449466738
+104469,Hospitality,East,Email,Travel_Corporate,2,2,7,0,1,0,0,10,1,0.5730823610953705
+103494,Manufacturing,North,Social,Enterprise_Expansion,2,6,0,2,0,0,0,10,1,0.5730324178176562
+113977,Technology,West,Web,Enterprise_Expansion,2,5,9,2,4,0,0,10,1,0.5730034263354599
+103403,Healthcare,North,Partner,Cashback_Business,2,4,8,2,0,0,0,10,1,0.5726990408154431
+111238,Financial Services,East,Web,SME_Growth,2,8,3,4,4,0,0,10,1,0.5725862397638212
+106181,Financial Services,East,Partner,Enterprise_Expansion,2,2,8,1,2,0,0,10,1,0.5720892897373984
+103650,Technology,East,Social,Business_Premium,2,3,1,1,1,0,0,10,1,0.5719087589021461
+124760,Healthcare,West,Email,Cashback_Business,0,4,6,8,6,0,0,0,1,0.6590739415339424
+114731,Retail,West,Paid Search,Startup_Accelerator,1,8,1,5,6,0,0,0,1,0.6546615283502979
+111524,Financial Services,South,Paid Search,Startup_Accelerator,1,10,8,1,7,0,0,0,1,0.6523044248176221
+100173,Technology,West,Partner,Startup_Accelerator,1,14,8,6,1,0,0,0,1,0.6495391399136514
+112759,Professional Services,South,Web,Cashback_Business,1,12,3,3,6,0,0,0,1,0.6491491684181258
+107953,Construction,East,Referral,Travel_Corporate,0,15,5,5,5,0,0,0,1,0.6471006729925144
+111714,Education,North,Referral,Travel_Corporate,1,8,9,4,5,0,0,0,1,0.6450920192826282
+111869,Logistics,West,Sales Outreach,Business_Premium,1,6,8,2,7,0,0,0,1,0.6441358450941037
+106710,Healthcare,North,Web,SME_Growth,0,2,10,3,6,0,0,0,1,0.643657790943393
+124257,Construction,North,Sales Outreach,Business_Premium,0,10,7,4,10,0,0,0,1,0.6434691071655212
+117563,Logistics,North,Email,Travel_Corporate,0,2,2,5,6,0,0,0,1,0.6411518875871818
+108183,Hospitality,South,Email,Travel_Corporate,1,11,5,5,5,0,0,0,1,0.6409441704390291
+104241,Hospitality,South,Sales Outreach,Travel_Corporate,0,14,5,3,6,0,0,0,1,0.6402153734951124
+100920,Healthcare,South,Email,Enterprise_Expansion,1,2,5,4,6,0,0,0,1,0.6401570189111528
+114417,Technology,North,Social,SME_Growth,1,5,3,5,8,0,0,0,1,0.6371688616296394
+102172,Healthcare,South,Sales Outreach,Cashback_Business,0,3,7,4,7,0,0,0,1,0.6360199360836363
+107913,Retail,North,Paid Search,Cashback_Business,1,11,2,3,7,0,0,0,1,0.6350369473389127
+106563,Education,North,Email,SME_Growth,0,4,8,6,3,0,0,0,1,0.6350222171637079
+112115,Technology,South,Paid Search,Business_Premium,1,7,9,1,7,0,0,0,1,0.6343710634219236
+102651,Hospitality,West,Email,Business_Premium,1,10,4,6,5,0,0,0,1,0.6339478487273968
+100190,Manufacturing,South,Email,Enterprise_Expansion,0,12,8,3,6,0,0,0,1,0.6328481508182316
+111728,Manufacturing,South,Sales Outreach,Travel_Corporate,0,8,13,0,5,0,0,0,1,0.6327502475690691
+102377,Education,North,Email,Travel_Corporate,1,9,4,4,8,0,0,0,1,0.6327273015784954
+122613,Manufacturing,West,Social,Business_Premium,0,6,6,5,7,0,0,0,1,0.6327234207647686
+108799,Healthcare,North,Social,Startup_Accelerator,1,14,2,0,9,0,0,0,1,0.6327067508213374
+122591,Education,West,Web,Startup_Accelerator,0,15,8,4,4,0,0,0,1,0.6322973430491228
+112086,Education,North,Sales Outreach,Enterprise_Expansion,1,9,4,4,6,0,0,0,1,0.6318900789060568
+116039,Retail,North,Referral,Cashback_Business,1,5,2,5,6,0,0,0,1,0.6307494590134862
+104965,Healthcare,East,Paid Search,Cashback_Business,1,12,6,7,1,0,0,0,1,0.6305961688842353
+120609,Logistics,East,Email,Cashback_Business,1,8,7,1,7,0,0,0,1,0.6298272235990354
+117437,Logistics,East,Email,SME_Growth,0,12,7,0,7,0,0,0,1,0.6283173863543897
+117588,Retail,North,Sales Outreach,Cashback_Business,0,15,3,0,7,0,0,0,1,0.6264601630107287
+114556,Financial Services,East,Sales Outreach,Business_Premium,0,12,7,5,0,0,0,0,1,0.6258890888979342
+122661,Healthcare,East,Paid Search,Enterprise_Expansion,0,13,9,3,3,0,0,0,1,0.625748158827904
+109207,Manufacturing,North,Partner,Enterprise_Expansion,0,14,4,0,7,0,0,0,1,0.6256239165902572
+101808,Hospitality,West,Paid Search,SME_Growth,1,9,5,5,5,0,0,0,1,0.6249650264183323
+100574,Construction,North,Social,SME_Growth,0,7,4,9,4,0,0,0,1,0.6239932044362718
+108842,Construction,North,Sales Outreach,Startup_Accelerator,1,7,2,5,6,0,0,0,1,0.6237702447796777
+123568,Retail,East,Social,Cashback_Business,0,7,9,0,7,0,0,0,1,0.6235857234396617
+120169,Construction,South,Referral,Business_Premium,0,13,4,4,5,0,0,0,1,0.6230312343146865
+124980,Logistics,East,Email,SME_Growth,1,12,2,3,7,0,0,0,1,0.6230157106515788
+101696,Construction,East,Partner,SME_Growth,0,14,8,2,4,0,0,0,1,0.6226939517042133
+101477,Financial Services,South,Paid Search,SME_Growth,1,13,1,5,2,0,0,0,1,0.6224954461164183
+109368,Hospitality,South,Partner,Cashback_Business,0,13,1,5,3,0,0,0,1,0.6223863706825417
+120998,Retail,South,Web,Startup_Accelerator,1,9,6,5,5,0,0,0,1,0.619856760981821
+103628,Hospitality,South,Email,Enterprise_Expansion,1,3,7,3,7,0,0,0,1,0.6198397222372135
+110506,Technology,West,Partner,Cashback_Business,0,17,4,4,0,0,0,0,1,0.6191419671649525
+109136,Technology,West,Partner,Enterprise_Expansion,1,8,9,5,3,0,0,0,1,0.6191070245105543
+124737,Hospitality,West,Sales Outreach,SME_Growth,0,6,9,7,1,0,0,0,1,0.6189122100787577
+120838,Technology,East,Referral,Business_Premium,0,5,5,4,7,0,0,0,1,0.6187993839004892
+115591,Construction,South,Email,Travel_Corporate,0,1,0,0,2,0,0,0,1,0.6179482602093799
+112824,Professional Services,South,Partner,Travel_Corporate,0,7,8,0,7,0,0,0,1,0.6174279434405503
+109493,Construction,North,Social,Cashback_Business,1,9,1,3,7,0,0,0,1,0.6173838780556151
+109625,Professional Services,East,Partner,Enterprise_Expansion,1,15,6,0,6,0,0,0,1,0.6170599416602368
+106979,Healthcare,North,Partner,Cashback_Business,1,7,6,5,5,0,0,0,1,0.6166377051330555
+101850,Construction,South,Social,Business_Premium,0,8,5,5,6,0,0,0,1,0.6161805992561025
+121854,Technology,West,Web,Startup_Accelerator,1,11,8,1,6,0,0,0,1,0.6159948437097151
+123425,Manufacturing,South,Paid Search,Travel_Corporate,0,3,10,4,4,0,0,0,1,0.6154169181276703
+101703,Retail,West,Paid Search,Startup_Accelerator,1,12,5,2,6,0,0,0,1,0.6153563976541557
+100322,Retail,West,Partner,Startup_Accelerator,1,12,4,6,1,0,0,0,1,0.61528585240225
+118813,Education,West,Web,Startup_Accelerator,0,13,8,2,5,0,0,0,1,0.6143898933175096
+105865,Professional Services,East,Sales Outreach,Cashback_Business,1,7,7,6,3,0,0,0,1,0.614248804938968
+121652,Technology,North,Web,Business_Premium,0,9,7,8,3,0,0,0,1,0.6138593943366566
+106425,Retail,East,Partner,Travel_Corporate,1,12,2,5,3,0,0,0,1,0.6136810740107965
+104372,Education,East,Paid Search,Cashback_Business,1,12,3,6,0,0,0,0,1,0.6134298713611478
+119231,Healthcare,South,Partner,Business_Premium,1,14,6,5,2,0,0,0,1,0.613425057941276
+103792,Manufacturing,North,Web,Business_Premium,1,3,0,0,0,0,0,0,1,0.6130241418995316
+119727,Education,South,Paid Search,Business_Premium,1,10,9,5,1,0,0,0,1,0.6129933319664955
+113130,Education,East,Paid Search,Enterprise_Expansion,0,6,0,8,2,0,0,0,1,0.6125553593385826
+118588,Technology,North,Web,Startup_Accelerator,0,7,8,6,3,0,0,0,1,0.6122484798773852
+100030,Construction,North,Web,Business_Premium,1,15,6,4,3,0,0,0,1,0.6120310479524306
+112668,Education,North,Sales Outreach,Business_Premium,1,11,9,3,0,0,0,0,1,0.6120306496489001
+118230,Hospitality,East,Email,Startup_Accelerator,1,14,8,2,0,0,0,0,1,0.6112559503727137
+116580,Construction,East,Paid Search,Startup_Accelerator,1,7,4,8,4,0,0,0,1,0.6108427552760202
+118775,Financial Services,North,Referral,Business_Premium,0,5,5,5,6,0,0,0,1,0.6102664650988171
+112588,Healthcare,West,Partner,Cashback_Business,0,7,8,1,8,0,0,0,1,0.6102411122520851
+111206,Logistics,North,Partner,Startup_Accelerator,0,5,10,4,4,0,0,0,1,0.6101616984963515
+123398,Retail,East,Email,Cashback_Business,0,10,7,7,0,0,0,0,1,0.6100822421142789
+101398,Financial Services,East,Partner,Enterprise_Expansion,1,8,2,5,5,0,0,0,1,0.6094633158450645
+114251,Logistics,South,Web,Travel_Corporate,0,5,2,6,4,0,0,0,1,0.6094070319502034
+113107,Healthcare,East,Email,Travel_Corporate,0,4,8,5,4,0,0,0,1,0.609325388797504
+123786,Technology,North,Partner,Business_Premium,1,5,3,5,6,0,0,0,1,0.6092466803534825
+109698,Logistics,South,Paid Search,Business_Premium,1,12,3,2,6,0,0,0,1,0.6088450547523248
+116210,Education,West,Social,Startup_Accelerator,0,3,5,5,5,0,0,0,1,0.6086966103871723
+121700,Financial Services,North,Email,Enterprise_Expansion,0,13,11,3,1,0,0,0,1,0.6082412952290667
+106222,Professional Services,South,Paid Search,SME_Growth,0,5,11,1,6,0,0,0,1,0.6081513411047045
+114689,Manufacturing,East,Sales Outreach,Cashback_Business,1,14,3,3,5,0,0,0,1,0.6080504607587293
+103723,Construction,South,Email,Cashback_Business,0,14,7,4,3,0,0,0,1,0.6076629033052118
+108126,Manufacturing,West,Partner,Business_Premium,0,13,2,5,3,0,0,0,1,0.6076514127576637
+117639,Manufacturing,North,Paid Search,Business_Premium,0,8,4,3,8,0,0,0,1,0.6076439234964044
+102637,Financial Services,North,Referral,Startup_Accelerator,0,9,9,5,2,0,0,0,1,0.6067992423337909
+116526,Technology,South,Web,Travel_Corporate,1,11,4,4,5,0,0,0,1,0.606694527685421
+119882,Financial Services,East,Paid Search,Startup_Accelerator,1,2,3,3,6,0,0,0,1,0.606510277165264
+112561,Manufacturing,East,Partner,SME_Growth,0,11,6,5,4,0,0,0,1,0.6063160603744517
+119589,Professional Services,West,Paid Search,Cashback_Business,0,10,4,2,8,0,0,0,1,0.6061817194745366
+123292,Hospitality,North,Web,Startup_Accelerator,1,7,6,6,3,0,0,0,1,0.6058821074715858
+111259,Logistics,East,Sales Outreach,Startup_Accelerator,1,11,6,1,6,0,0,0,1,0.6051752299736397
+102770,Manufacturing,East,Paid Search,Startup_Accelerator,1,6,3,6,4,0,0,0,1,0.6051453121498563
+122300,Logistics,East,Sales Outreach,SME_Growth,1,10,2,1,7,0,0,0,1,0.6050338145572002
+102097,Manufacturing,East,Partner,Travel_Corporate,1,10,5,3,7,0,0,0,1,0.6046205928505342
+118395,Manufacturing,West,Sales Outreach,Business_Premium,0,8,7,7,4,0,0,0,1,0.6043168171598876
+119292,Financial Services,East,Partner,Travel_Corporate,0,10,10,3,4,0,0,0,1,0.6041305877713309
+113258,Logistics,West,Referral,Enterprise_Expansion,0,3,6,2,7,0,0,0,1,0.6039487013306613
+117646,Manufacturing,West,Sales Outreach,Cashback_Business,1,14,6,2,5,0,0,0,1,0.6037633330535155
+100412,Professional Services,West,Paid Search,Enterprise_Expansion,0,4,3,3,8,0,0,0,1,0.6035238737138204
+121765,Professional Services,South,Web,Business_Premium,0,15,9,3,3,0,0,0,1,0.6035101684668144
+123010,Technology,North,Email,Business_Premium,1,9,6,6,0,0,0,0,1,0.6035056083044276
+106570,Education,South,Paid Search,Business_Premium,1,10,2,5,5,0,0,0,1,0.6034609223026739
+112670,Hospitality,South,Paid Search,Startup_Accelerator,0,4,7,0,7,0,0,0,1,0.6033882627849879
+116905,Manufacturing,West,Paid Search,Startup_Accelerator,1,13,3,5,4,0,0,0,1,0.6033843236750898
+113209,Construction,South,Social,Travel_Corporate,0,10,6,6,4,0,0,0,1,0.6032304125191683
+121995,Education,West,Social,Travel_Corporate,0,3,1,5,5,0,0,0,1,0.6030856498025363
+111402,Healthcare,West,Email,SME_Growth,0,11,7,5,3,0,0,0,1,0.6030308275929943
+104905,Financial Services,East,Paid Search,Business_Premium,1,13,4,3,5,0,0,0,1,0.6027986476101278
+108177,Manufacturing,East,Partner,Cashback_Business,1,4,5,6,3,0,0,0,1,0.6026054966914748
+115034,Education,East,Partner,Travel_Corporate,0,12,9,3,4,0,0,0,1,0.6025904834910579
+111375,Education,South,Paid Search,Cashback_Business,1,8,5,7,2,0,0,0,1,0.602586125212144
+112986,Manufacturing,East,Web,Travel_Corporate,0,13,2,5,0,0,0,0,1,0.6024809481848575
+124703,Technology,West,Partner,SME_Growth,1,9,6,4,6,0,0,0,1,0.6022254682601986
+103171,Technology,South,Web,Cashback_Business,0,9,1,5,4,0,0,0,1,0.602022183554085
+104773,Education,North,Paid Search,Cashback_Business,1,12,7,2,5,0,0,0,1,0.6018111888825682
+115414,Retail,West,Sales Outreach,Cashback_Business,0,3,4,3,6,0,0,0,1,0.6017220227384906
+101592,Retail,West,Social,Travel_Corporate,0,11,2,1,8,0,0,0,1,0.6017022714327086
+123867,Financial Services,West,Web,Startup_Accelerator,0,8,7,2,7,0,0,0,1,0.6016262018082126
+110263,Logistics,South,Paid Search,Cashback_Business,0,13,2,5,3,0,0,0,1,0.601608549229105
+112279,Hospitality,South,Paid Search,Startup_Accelerator,1,7,7,6,1,0,0,0,1,0.6015579616131043
+110362,Technology,West,Paid Search,Cashback_Business,1,6,10,4,1,0,0,0,1,0.6014931923341424
+120494,Hospitality,East,Social,Cashback_Business,0,6,2,5,5,0,0,0,1,0.6011307783444931
+108143,Retail,East,Sales Outreach,Startup_Accelerator,0,12,2,6,0,0,0,0,1,0.6011077454636888
+122485,Healthcare,North,Partner,SME_Growth,1,4,0,7,2,0,0,0,1,0.6000257302961105
+113752,Financial Services,North,Web,Startup_Accelerator,1,7,8,2,6,0,0,0,1,0.5998838627647375
+100726,Education,East,Paid Search,SME_Growth,1,8,5,5,5,0,0,0,1,0.5996035081667498
+112349,Education,West,Email,Startup_Accelerator,1,10,5,5,4,0,0,0,1,0.5994786203879147
+103246,Logistics,North,Paid Search,Cashback_Business,1,3,6,3,6,0,0,0,1,0.5994266032896883
+118286,Retail,South,Partner,Startup_Accelerator,0,6,8,6,1,0,0,0,1,0.5992257421099114
+110674,Healthcare,West,Paid Search,Enterprise_Expansion,0,7,9,4,4,0,0,0,1,0.5988719700035005
+109543,Financial Services,North,Email,Startup_Accelerator,0,14,7,3,2,0,0,0,1,0.598752810919474
+121659,Technology,West,Sales Outreach,Startup_Accelerator,0,9,3,3,9,0,0,0,1,0.5985056686477044
+100429,Retail,North,Partner,Cashback_Business,1,8,10,3,0,0,0,0,1,0.598385003187244
+104542,Construction,West,Sales Outreach,Travel_Corporate,1,13,6,1,5,0,0,0,1,0.5982435218563139
+105228,Professional Services,South,Paid Search,Enterprise_Expansion,0,13,10,1,4,0,0,0,1,0.598224276526691
+106831,Retail,West,Email,SME_Growth,0,10,6,5,3,0,0,0,1,0.5979252758003638
+116708,Construction,North,Web,Business_Premium,1,9,5,3,7,0,0,0,1,0.5977202472316531
+123872,Hospitality,West,Partner,Cashback_Business,1,8,6,4,5,0,0,0,1,0.5973214391498368
+112881,Logistics,East,Sales Outreach,Enterprise_Expansion,1,3,3,4,6,0,0,0,1,0.5969539295946087
+118057,Hospitality,East,Referral,SME_Growth,0,14,7,4,2,0,0,0,1,0.5969397217862403
+117304,Financial Services,North,Sales Outreach,Cashback_Business,0,8,5,7,2,0,0,0,1,0.5969359435874271
+109553,Technology,South,Social,Enterprise_Expansion,0,9,6,5,5,0,0,0,1,0.5967645932661785
+104816,Healthcare,South,Partner,SME_Growth,0,3,2,4,7,0,0,0,1,0.5966744563867972
+109524,Construction,East,Email,SME_Growth,0,0,5,0,0,0,0,0,1,0.5962892007728062
+101757,Manufacturing,South,Referral,Enterprise_Expansion,1,8,3,1,8,0,0,0,1,0.5961915305748633
+103697,Professional Services,North,Referral,Enterprise_Expansion,1,9,10,2,3,0,0,0,1,0.5960798543719119
+118213,Professional Services,East,Sales Outreach,Business_Premium,1,8,9,4,0,0,0,0,1,0.596063821888563
+108080,Logistics,West,Social,Cashback_Business,0,10,2,4,6,0,0,0,1,0.5958159573221845
+122562,Technology,West,Sales Outreach,Startup_Accelerator,0,2,1,0,0,0,0,0,1,0.5957898068727249
+102274,Healthcare,West,Email,Startup_Accelerator,0,9,8,2,6,0,0,0,1,0.5957870571380088
+101384,Hospitality,North,Email,Enterprise_Expansion,1,8,9,4,1,0,0,0,1,0.595748910984508
+101491,Education,North,Partner,Cashback_Business,1,8,8,5,3,0,0,0,1,0.5954312949608241
+113265,Construction,West,Email,Cashback_Business,1,10,2,6,2,0,0,0,1,0.5953648898374465
+109756,Construction,West,Referral,SME_Growth,0,6,5,4,6,0,0,0,1,0.5952510725297624
+120440,Professional Services,North,Email,Travel_Corporate,1,1,2,6,2,0,0,0,1,0.5952419975422254
+114859,Technology,East,Web,Cashback_Business,0,6,9,4,4,0,0,0,1,0.5949691526857949
+108637,Education,South,Sales Outreach,Enterprise_Expansion,0,10,12,4,1,0,0,0,1,0.5948648622706274
+117283,Technology,South,Partner,Business_Premium,1,18,8,2,2,0,0,0,1,0.5948433883266843
+116883,Technology,North,Web,Business_Premium,0,9,7,5,0,0,0,0,1,0.5946146962089529
+117854,Hospitality,North,Web,Cashback_Business,0,13,8,4,2,0,0,0,1,0.5946033131363087
+107831,Professional Services,East,Sales Outreach,Cashback_Business,0,2,7,0,0,0,0,0,1,0.594490855399251
+101753,Financial Services,West,Email,Travel_Corporate,0,3,8,7,1,0,0,0,1,0.5940534083212533
+112713,Technology,North,Paid Search,Enterprise_Expansion,1,4,5,5,4,0,0,0,1,0.5939630861353831
+111231,Manufacturing,South,Social,SME_Growth,1,5,9,1,6,0,0,0,1,0.5939243384231186
+112930,Education,North,Web,Enterprise_Expansion,0,7,8,2,6,0,0,0,1,0.59386441556587
+121280,Retail,East,Sales Outreach,Startup_Accelerator,1,8,7,4,5,0,0,0,1,0.5937972864701494
+102585,Hospitality,East,Paid Search,SME_Growth,1,11,4,7,2,0,0,0,1,0.5937962339792233
+113320,Education,West,Partner,SME_Growth,0,6,7,3,7,0,0,0,1,0.5936431279872121
+110574,Logistics,North,Email,Travel_Corporate,0,10,4,2,6,0,0,0,1,0.5934683916912326
+116300,Hospitality,South,Paid Search,Business_Premium,0,14,7,2,3,0,0,0,1,0.593397604834452
+119588,Healthcare,West,Paid Search,SME_Growth,1,3,6,5,4,0,0,0,1,0.5933543606341346
+103990,Construction,North,Web,Startup_Accelerator,1,5,3,6,4,0,0,0,1,0.5933490711452603
+123459,Technology,East,Web,Enterprise_Expansion,1,6,10,1,5,0,0,0,1,0.5933363627978553
+124536,Hospitality,West,Web,Enterprise_Expansion,0,11,2,2,7,0,0,0,1,0.5932280958218159
+107608,Professional Services,East,Email,Cashback_Business,1,3,6,0,6,0,0,0,1,0.593065701995923
+124510,Financial Services,South,Email,SME_Growth,0,14,5,4,4,0,0,0,1,0.5929638139279867
+123529,Professional Services,South,Sales Outreach,Travel_Corporate,0,5,9,5,2,0,0,0,1,0.5928168167080401
+110278,Education,East,Email,Business_Premium,1,4,7,6,3,0,0,0,1,0.592816511521798
+106868,Construction,East,Email,Cashback_Business,0,1,1,0,0,0,0,0,1,0.5925538581128252
+109197,Construction,South,Paid Search,Enterprise_Expansion,0,13,3,5,3,0,0,0,1,0.5924457932787768
+122302,Healthcare,South,Web,Cashback_Business,0,11,3,3,6,0,0,0,1,0.59235272724925
+100599,Technology,West,Paid Search,Business_Premium,0,8,8,4,5,0,0,0,1,0.5920735906520491
+101562,Professional Services,South,Email,Cashback_Business,1,12,1,0,7,0,0,0,1,0.5920413727744598
+103569,Professional Services,East,Sales Outreach,Business_Premium,1,16,5,3,0,0,0,0,1,0.5918382698950697
+118124,Professional Services,West,Web,Enterprise_Expansion,1,1,9,1,4,0,0,0,1,0.591517797645436
+123219,Construction,West,Paid Search,Business_Premium,1,7,9,0,6,0,0,0,1,0.5914968713410235
+123790,Hospitality,North,Email,Startup_Accelerator,0,15,3,3,4,0,0,0,1,0.5911865359015693
+120893,Logistics,North,Partner,Cashback_Business,1,16,4,2,5,0,0,0,1,0.5911707092502089
+100011,Education,North,Paid Search,Cashback_Business,0,12,2,2,6,0,0,0,1,0.5911467301725691
+103125,Logistics,East,Sales Outreach,Business_Premium,0,5,6,5,4,0,0,0,1,0.5910460106098226
+121287,Logistics,East,Sales Outreach,SME_Growth,1,7,10,4,3,0,0,0,1,0.5909333172936769
+105254,Education,West,Referral,Business_Premium,0,12,2,5,3,0,0,0,1,0.5904294864247145
+122117,Logistics,West,Web,Startup_Accelerator,0,5,7,4,5,0,0,0,1,0.5902773619855253
+112292,Healthcare,West,Web,Travel_Corporate,1,2,3,0,0,0,0,0,1,0.5901452606169361
+121816,Professional Services,East,Social,Startup_Accelerator,1,8,6,6,3,0,0,0,1,0.5896263104684566
+116378,Manufacturing,North,Web,Startup_Accelerator,0,7,6,8,3,0,0,0,1,0.5894846426171557
+106671,Technology,East,Email,Startup_Accelerator,1,8,9,4,3,0,0,0,1,0.5893897890067958
+112801,Retail,East,Partner,SME_Growth,1,8,2,4,5,0,0,0,1,0.5893310292675136
+108373,Retail,North,Paid Search,Enterprise_Expansion,0,5,11,3,3,0,0,0,1,0.5891331491303168
+124942,Hospitality,West,Partner,SME_Growth,1,8,9,5,1,0,0,0,1,0.5890596384774864
+104751,Retail,North,Web,Enterprise_Expansion,1,6,2,5,4,0,0,0,1,0.5889965349427695
+100553,Technology,South,Web,Cashback_Business,1,5,9,0,6,0,0,0,1,0.5888871047117294
+104170,Education,South,Web,Startup_Accelerator,1,2,2,0,7,0,0,0,1,0.5887951141007639
+121835,Construction,East,Referral,Business_Premium,0,10,8,5,2,0,0,0,1,0.588728275975326
+113172,Logistics,East,Paid Search,Startup_Accelerator,1,6,9,1,5,0,0,0,1,0.5885551488751215
+106212,Manufacturing,East,Paid Search,Startup_Accelerator,1,3,4,6,3,0,0,0,1,0.5885477011130528
+123601,Manufacturing,North,Web,Startup_Accelerator,0,11,7,5,2,0,0,0,1,0.5885050378625055
+100126,Manufacturing,South,Email,SME_Growth,0,16,4,3,3,0,0,0,1,0.5884226576760533
+119945,Retail,North,Referral,Cashback_Business,1,4,7,2,7,0,0,0,1,0.5882628796963125
+117594,Construction,East,Web,Travel_Corporate,1,15,5,4,2,0,0,0,1,0.5882124695510013
+118072,Hospitality,East,Social,Business_Premium,0,6,8,5,3,0,0,0,1,0.5879639413146214
+117381,Professional Services,South,Referral,Business_Premium,1,6,1,1,9,0,0,0,1,0.5877034378625949
+124846,Hospitality,West,Email,Startup_Accelerator,0,14,5,3,4,0,0,0,1,0.5876721476251912
+107860,Financial Services,East,Partner,Cashback_Business,0,5,9,5,0,0,0,0,1,0.5875696483406354
+115571,Retail,East,Email,Business_Premium,1,12,0,1,0,0,0,0,1,0.5875427133376261
+110154,Manufacturing,East,Social,Travel_Corporate,1,6,11,2,3,0,0,0,1,0.5875166214538701
+120465,Healthcare,West,Sales Outreach,Enterprise_Expansion,0,8,8,3,5,0,0,0,1,0.5875005384479723
+121300,Financial Services,East,Partner,Business_Premium,0,9,5,4,6,0,0,0,1,0.5873381961418653
+112775,Education,East,Web,SME_Growth,1,8,11,1,3,0,0,0,1,0.5873115108181804
+101473,Financial Services,North,Web,Startup_Accelerator,1,10,3,2,6,0,0,0,1,0.5870631130434942
+118049,Hospitality,East,Paid Search,Business_Premium,0,10,7,5,1,0,0,0,1,0.5869595077131952
+113510,Education,South,Referral,Startup_Accelerator,0,12,1,5,3,0,0,0,1,0.5866110209675188
+109669,Technology,West,Paid Search,Travel_Corporate,1,2,4,2,6,0,0,0,1,0.5865750780111235
+106619,Professional Services,East,Web,Startup_Accelerator,0,12,7,2,5,0,0,0,1,0.5865030749432971
+105828,Manufacturing,East,Paid Search,Cashback_Business,1,10,9,1,5,0,0,0,1,0.5860304922578009
+113588,Retail,East,Paid Search,Business_Premium,0,15,4,5,2,0,0,0,1,0.5860143404171124
+123975,Healthcare,South,Email,Startup_Accelerator,0,8,8,5,1,0,0,0,1,0.5858966824803196
+114673,Retail,North,Partner,Travel_Corporate,0,15,4,1,5,0,0,0,1,0.5858033980902525
+110972,Education,South,Sales Outreach,Travel_Corporate,1,4,0,4,4,0,0,0,1,0.5856381558542966
+124209,Hospitality,West,Sales Outreach,SME_Growth,1,5,6,4,5,0,0,0,1,0.585603804195243
+118850,Logistics,East,Paid Search,Travel_Corporate,1,7,5,6,3,0,0,0,1,0.5855922221376713
+102439,Hospitality,East,Paid Search,Startup_Accelerator,0,13,9,3,0,0,0,0,1,0.5854342470870055
+105062,Retail,North,Web,Startup_Accelerator,0,3,4,2,7,0,0,0,1,0.5854198740124097
+112796,Logistics,South,Social,SME_Growth,0,2,0,0,3,0,0,0,1,0.585402949923928
+116155,Construction,South,Referral,Travel_Corporate,0,13,5,5,2,0,0,0,1,0.5852419896500604
+105631,Manufacturing,South,Referral,Business_Premium,1,10,9,3,3,0,0,0,1,0.5851345204203777
+101691,Manufacturing,West,Sales Outreach,Startup_Accelerator,1,2,10,0,3,0,0,0,1,0.5850873241752812
+105448,Hospitality,North,Sales Outreach,SME_Growth,1,5,3,6,3,0,0,0,1,0.5850410767114603
+121217,Professional Services,South,Email,Cashback_Business,0,9,7,5,0,0,0,0,1,0.5849086554189911
+100622,Technology,East,Email,Travel_Corporate,1,9,4,3,6,0,0,0,1,0.584717247856667
+119245,Financial Services,North,Sales Outreach,Cashback_Business,0,11,8,0,5,0,0,0,1,0.5843450372550129
+114651,Technology,East,Referral,SME_Growth,1,11,5,3,5,0,0,0,1,0.5842092623944495
+100717,Technology,West,Web,Enterprise_Expansion,1,0,3,1,0,0,0,0,1,0.5836904789276183
+104245,Construction,East,Web,Business_Premium,1,1,2,6,2,0,0,0,1,0.5836858623659847
+110264,Technology,South,Email,Business_Premium,1,10,3,5,0,0,0,0,1,0.583586362243952
+105812,Financial Services,South,Email,Travel_Corporate,0,9,2,3,6,0,0,0,1,0.58351662057816
+124063,Financial Services,East,Partner,Startup_Accelerator,1,10,4,1,7,0,0,0,1,0.5833977995893086
+104349,Professional Services,West,Sales Outreach,Cashback_Business,1,3,8,0,4,0,0,0,1,0.5833874934131447
+102631,Professional Services,East,Web,Business_Premium,0,16,4,3,3,0,0,0,1,0.5833397015684835
+107469,Financial Services,North,Sales Outreach,SME_Growth,0,9,7,6,1,0,0,0,1,0.5833067047637531
+102258,Logistics,South,Social,SME_Growth,0,0,4,2,7,0,0,0,1,0.5832795548364708
+122664,Financial Services,North,Web,Business_Premium,1,11,9,1,5,0,0,0,1,0.5830755197609458
+121997,Technology,South,Paid Search,Startup_Accelerator,1,5,0,5,3,0,0,0,1,0.5830711282009932
+106593,Manufacturing,West,Email,Startup_Accelerator,1,1,8,4,2,0,0,0,1,0.5830401058596684
+120449,Retail,West,Referral,SME_Growth,0,10,2,6,1,0,0,0,1,0.582966000638415
+115657,Healthcare,East,Social,Enterprise_Expansion,0,11,2,4,5,0,0,0,1,0.5829312284423203
+104504,Hospitality,South,Sales Outreach,Cashback_Business,1,11,3,3,5,0,0,0,1,0.5827525817043746
+100577,Healthcare,East,Web,Startup_Accelerator,1,4,1,0,0,0,0,0,1,0.5826476367883447
+109044,Logistics,East,Partner,Startup_Accelerator,0,7,6,5,4,0,0,0,1,0.5824986581343112
+115837,Healthcare,West,Email,Startup_Accelerator,0,12,5,4,4,0,0,0,1,0.5822758766423999
+103020,Construction,North,Email,Business_Premium,0,11,4,6,2,0,0,0,1,0.581968192985817
+123167,Professional Services,East,Email,SME_Growth,1,10,3,0,7,0,0,0,1,0.5818309228287116
+104564,Retail,North,Email,Travel_Corporate,1,8,4,5,3,0,0,0,1,0.5817287976490986
+109691,Financial Services,East,Paid Search,Startup_Accelerator,1,14,8,1,3,0,0,0,1,0.5817075252213155
+115268,Construction,West,Web,Startup_Accelerator,0,5,2,4,5,0,0,0,1,0.5816388361677363
+124557,Professional Services,North,Referral,Startup_Accelerator,0,5,7,1,7,0,0,0,1,0.5814458885562723
+115572,Construction,North,Web,Startup_Accelerator,1,12,10,1,1,0,0,0,1,0.5813001138466595
+119399,Logistics,East,Partner,Enterprise_Expansion,0,16,3,2,5,0,0,0,1,0.581271526795721
+104128,Hospitality,West,Web,SME_Growth,0,4,6,6,2,0,0,0,1,0.5812175442846512
+122863,Construction,East,Paid Search,SME_Growth,0,15,5,4,2,0,0,0,1,0.5811960384562322
+124337,Construction,North,Web,Business_Premium,0,5,4,1,9,0,0,0,1,0.5811322557964507
+101476,Hospitality,North,Sales Outreach,Cashback_Business,0,15,6,2,5,0,0,0,1,0.5810260564940383
+108313,Construction,South,Email,Cashback_Business,0,14,5,3,5,0,0,0,1,0.580821217483399
+119422,Hospitality,South,Sales Outreach,Travel_Corporate,1,4,1,0,5,0,0,0,1,0.5807493280545185
+103857,Professional Services,East,Paid Search,Cashback_Business,1,4,1,4,4,0,0,0,1,0.5805749715646558
+105946,Retail,North,Social,SME_Growth,1,6,6,6,3,0,0,0,1,0.5804854653827437
+124082,Retail,West,Social,Travel_Corporate,0,14,6,4,2,0,0,0,1,0.5804541625490036
+106313,Retail,North,Social,Startup_Accelerator,1,7,2,4,6,0,0,0,1,0.5804170248396203
+101908,Healthcare,West,Web,SME_Growth,0,2,4,0,0,0,0,0,1,0.5803786895962413
+117952,Manufacturing,South,Email,Enterprise_Expansion,0,10,5,3,6,0,0,0,1,0.5802837337440132
+122334,Retail,West,Sales Outreach,Startup_Accelerator,1,6,7,2,5,0,0,0,1,0.5800072714031719
+107659,Logistics,West,Social,SME_Growth,0,5,10,3,3,0,0,0,1,0.5800022580086803
+103464,Manufacturing,West,Web,SME_Growth,0,3,2,0,8,0,0,0,1,0.5799865766852086
+117747,Retail,East,Social,Travel_Corporate,1,3,3,0,0,0,0,0,1,0.5797833789732522
+119205,Technology,East,Partner,Travel_Corporate,1,10,5,1,7,0,0,0,1,0.5797522962064897
+101620,Logistics,North,Web,Startup_Accelerator,0,3,5,4,5,0,0,0,1,0.5797244552523841
+108879,Hospitality,West,Web,Cashback_Business,0,13,5,3,5,0,0,0,1,0.5797205304849034
+111968,Logistics,East,Social,Enterprise_Expansion,1,2,1,2,0,0,0,0,1,0.579718634772346
+112851,Financial Services,East,Sales Outreach,Startup_Accelerator,1,3,0,0,2,0,0,0,1,0.5796554501401936
+109045,Technology,North,Sales Outreach,Business_Premium,1,2,2,0,0,0,0,0,1,0.5796268019798543
+118834,Retail,North,Partner,Cashback_Business,0,9,3,6,3,0,0,0,1,0.5791818689651158
+111372,Professional Services,North,Paid Search,Cashback_Business,0,6,1,4,5,0,0,0,1,0.5791080752059596
+121707,Hospitality,South,Partner,SME_Growth,0,1,4,0,0,0,0,0,1,0.5790647871069701
+117839,Logistics,East,Sales Outreach,Cashback_Business,0,7,7,5,3,0,0,0,1,0.5789611916365631
+118298,Education,South,Partner,Cashback_Business,0,14,7,3,0,0,0,0,1,0.5787068023300831
+110184,Technology,East,Partner,Travel_Corporate,1,2,9,3,2,0,0,0,1,0.5785718418036968
+119946,Manufacturing,East,Paid Search,SME_Growth,1,10,5,5,4,0,0,0,1,0.5785713336174039
+101739,Construction,North,Paid Search,SME_Growth,0,9,2,4,5,0,0,0,1,0.5785012717356478
+124130,Professional Services,East,Partner,Enterprise_Expansion,0,7,12,4,2,0,0,0,1,0.578480105300431
+109087,Financial Services,West,Paid Search,SME_Growth,0,4,1,4,5,0,0,0,1,0.578236993274232
+121539,Retail,West,Sales Outreach,Enterprise_Expansion,1,15,6,0,2,0,0,0,1,0.5780918752682798
+119561,Education,East,Email,Enterprise_Expansion,1,15,0,3,3,0,0,0,1,0.5780089286276541
+110283,Logistics,West,Partner,Business_Premium,1,6,0,0,0,0,0,0,1,0.5780010442907015
+117957,Manufacturing,West,Social,Business_Premium,0,12,5,5,3,0,0,0,1,0.5779212815093412
+121668,Logistics,West,Social,Startup_Accelerator,0,7,10,1,5,0,0,0,1,0.5779206667419194
+110416,Retail,West,Partner,Business_Premium,1,9,8,3,4,0,0,0,1,0.5778608144272491
+124280,Hospitality,North,Paid Search,Travel_Corporate,1,6,0,0,0,0,0,0,1,0.5778152840806775
+102108,Manufacturing,West,Sales Outreach,Enterprise_Expansion,1,10,7,1,6,0,0,0,1,0.5776637062192012
+119911,Technology,West,Paid Search,Enterprise_Expansion,1,4,4,6,3,0,0,0,1,0.5776538234324049
+107104,Logistics,West,Sales Outreach,SME_Growth,0,12,4,1,6,0,0,0,1,0.5775935309563349
+120296,Logistics,East,Partner,Startup_Accelerator,0,7,5,5,5,0,0,0,1,0.5775429720999697
+122691,Technology,South,Social,Cashback_Business,1,8,5,3,6,0,0,0,1,0.577481051637503
+104544,Professional Services,East,Sales Outreach,Business_Premium,0,12,5,3,5,0,0,0,1,0.5774712229072343
+114606,Retail,West,Partner,Business_Premium,0,4,1,6,3,0,0,0,1,0.5774457258570119
+101424,Manufacturing,North,Email,Business_Premium,0,6,11,3,2,0,0,0,1,0.5774420931087616
+115739,Healthcare,North,Sales Outreach,SME_Growth,0,9,4,6,0,0,0,0,1,0.5772666375897275
+106886,Construction,East,Sales Outreach,Startup_Accelerator,1,15,4,1,5,0,0,0,1,0.5771098854773342
+104145,Construction,East,Social,Enterprise_Expansion,1,2,4,0,0,0,0,0,1,0.5770610650758673
+114172,Hospitality,North,Sales Outreach,Enterprise_Expansion,1,10,5,4,5,0,0,0,1,0.5770567929081707
+105439,Construction,North,Sales Outreach,Enterprise_Expansion,1,6,5,0,7,0,0,0,1,0.5769800616212484
+116003,Professional Services,South,Social,SME_Growth,0,6,5,6,0,0,0,0,1,0.5769695069791652
+103584,Healthcare,West,Paid Search,Startup_Accelerator,0,7,5,3,6,0,0,0,1,0.5768175346034682
+105743,Construction,South,Sales Outreach,Startup_Accelerator,1,3,3,0,0,0,0,0,1,0.5766542357531214
+122769,Healthcare,East,Referral,Enterprise_Expansion,0,10,1,0,6,0,0,0,1,0.5766254674884411
+123045,Professional Services,West,Email,Business_Premium,1,6,1,5,0,0,0,0,1,0.5765332266545039
+105783,Healthcare,East,Email,SME_Growth,1,5,7,1,6,0,0,0,1,0.5764711943068394
+119953,Logistics,South,Referral,Startup_Accelerator,1,6,3,6,0,0,0,0,1,0.576337796948374
+116719,Education,West,Email,SME_Growth,1,10,2,5,4,0,0,0,1,0.5762703657170428
+109234,Education,West,Web,SME_Growth,1,2,5,4,0,0,0,0,1,0.5762594343813652
+105318,Financial Services,West,Social,Cashback_Business,0,13,3,4,2,0,0,0,1,0.5760088146302466
+102995,Professional Services,West,Email,SME_Growth,0,7,2,4,5,0,0,0,1,0.5759213868768318
+114389,Logistics,West,Partner,Business_Premium,0,12,8,2,4,0,0,0,1,0.5754809330361349
+102448,Education,East,Web,SME_Growth,0,6,7,1,7,0,0,0,1,0.5754805879353563
+120470,Hospitality,West,Sales Outreach,Cashback_Business,1,7,4,6,1,0,0,0,1,0.5754803710196378
+108305,Financial Services,South,Paid Search,Enterprise_Expansion,0,4,7,4,4,0,0,0,1,0.5753472086581768
+100719,Manufacturing,South,Paid Search,SME_Growth,1,6,9,1,5,0,0,0,1,0.5753410250792881
+100419,Hospitality,West,Social,Enterprise_Expansion,0,15,1,3,2,0,0,0,1,0.5750916489036557
+120957,Logistics,North,Web,Enterprise_Expansion,1,9,0,5,2,0,0,0,1,0.5750848103120544
+121552,Construction,North,Paid Search,SME_Growth,0,15,0,3,2,0,0,0,1,0.5749196946169497
+107833,Logistics,South,Email,Travel_Corporate,0,6,9,4,4,0,0,0,1,0.5748561531102958
+117445,Logistics,West,Referral,SME_Growth,0,14,9,1,4,0,0,0,1,0.5748098268658652
+122995,Healthcare,South,Partner,Business_Premium,1,3,7,6,2,0,0,0,1,0.5746996698985218
+120414,Professional Services,North,Web,Travel_Corporate,0,10,3,6,2,0,0,0,1,0.5746959199456698
+124906,Hospitality,East,Email,Travel_Corporate,1,13,3,4,3,0,0,0,1,0.5746321520931246
+108984,Manufacturing,North,Email,Cashback_Business,1,8,7,1,5,0,0,0,1,0.5746094937432809
+108112,Hospitality,North,Web,SME_Growth,0,3,7,0,0,0,0,0,1,0.5745440801525938
+104018,Construction,East,Sales Outreach,SME_Growth,0,2,5,5,4,0,0,0,1,0.574494848357305
+122439,Construction,West,Partner,Enterprise_Expansion,1,2,1,0,1,0,0,0,1,0.5744277049775456
+118173,Professional Services,West,Partner,SME_Growth,1,4,3,7,2,0,0,0,1,0.5743477934397977
+101460,Logistics,North,Paid Search,Cashback_Business,1,10,7,1,5,0,0,0,1,0.574318863734676
+121332,Construction,West,Paid Search,Startup_Accelerator,0,11,2,5,3,0,0,0,1,0.5742899030312313
+122601,Logistics,West,Email,Business_Premium,1,3,6,0,5,0,0,0,1,0.5742685310863993
+112570,Manufacturing,East,Social,Enterprise_Expansion,0,7,4,7,3,0,0,0,1,0.5742322667160372
+116816,Retail,North,Referral,Cashback_Business,1,9,7,3,5,0,0,0,1,0.5742047619676762
+120659,Education,West,Email,Travel_Corporate,0,9,6,5,3,0,0,0,1,0.5742000476437229
+101583,Professional Services,East,Paid Search,Business_Premium,0,12,2,5,2,0,0,0,1,0.5741450632655929
+117525,Professional Services,North,Sales Outreach,Enterprise_Expansion,1,7,1,0,6,0,0,0,1,0.5740636952800405
+111731,Healthcare,East,Sales Outreach,SME_Growth,1,11,10,3,1,0,0,0,1,0.574063355954545
+110191,Healthcare,South,Sales Outreach,Travel_Corporate,1,13,1,1,5,0,0,0,1,0.5740502601616996
+118227,Professional Services,South,Social,Enterprise_Expansion,0,12,3,3,6,0,0,0,1,0.5740431073149882
+119212,Logistics,East,Paid Search,Cashback_Business,0,9,2,3,6,0,0,0,1,0.5740212062637567
+114463,Construction,North,Email,Business_Premium,1,4,3,2,7,0,0,0,1,0.5739822903840377
+105083,Financial Services,South,Sales Outreach,Enterprise_Expansion,0,11,7,5,2,0,0,0,1,0.5739756904169947
+117777,Education,West,Sales Outreach,Enterprise_Expansion,1,9,2,4,5,0,0,0,1,0.5739011574797406
+103022,Manufacturing,West,Web,Enterprise_Expansion,0,8,10,2,4,0,0,0,1,0.5738784058347366
+101644,Manufacturing,North,Web,Startup_Accelerator,1,12,5,4,0,0,0,0,1,0.5738169895664542
+112402,Construction,South,Paid Search,Business_Premium,0,19,5,2,3,0,0,0,1,0.5738125787945001
+122287,Logistics,South,Web,Cashback_Business,1,4,8,4,1,0,0,0,1,0.5737114829106478
+115672,Construction,North,Sales Outreach,Cashback_Business,0,10,5,6,2,0,0,0,1,0.5736941016121562
+104344,Logistics,South,Partner,Travel_Corporate,1,8,7,3,4,0,0,0,1,0.5736204464917016
+115444,Retail,West,Partner,SME_Growth,1,10,1,2,6,0,0,0,1,0.5734013834641967
+109569,Education,North,Referral,SME_Growth,0,10,3,6,2,0,0,0,1,0.5733750351943914
+117266,Retail,East,Web,Cashback_Business,0,4,10,4,3,0,0,0,1,0.5733168271154396
+124541,Technology,West,Sales Outreach,Business_Premium,0,3,0,1,0,0,0,0,1,0.5732879178025548
+114208,Hospitality,South,Partner,Cashback_Business,0,1,0,1,1,0,0,0,1,0.5729514677445025
+103974,Logistics,East,Web,Enterprise_Expansion,1,2,2,0,0,0,0,0,1,0.5729082286371842
+113623,Healthcare,West,Sales Outreach,Cashback_Business,0,9,5,5,4,0,0,0,1,0.5727760193479525
+117550,Retail,South,Paid Search,Travel_Corporate,0,8,2,2,7,0,0,0,1,0.5726340687900545
+107719,Manufacturing,South,Partner,Business_Premium,1,10,7,3,4,0,0,0,1,0.572533606956014
+108434,Manufacturing,West,Partner,Travel_Corporate,0,4,0,0,0,0,0,0,1,0.5722188232503224
+112866,Financial Services,South,Paid Search,Startup_Accelerator,1,5,8,4,0,0,0,0,1,0.5721463015366336
+124856,Financial Services,East,Social,Enterprise_Expansion,0,7,9,4,2,0,0,0,1,0.5721459487720412
+100317,Education,South,Referral,Business_Premium,0,9,10,2,4,0,0,0,1,0.572078315717631
+103270,Manufacturing,North,Sales Outreach,Business_Premium,1,4,2,0,6,0,0,0,1,0.5720768481227676
+106637,Construction,East,Partner,SME_Growth,1,10,7,2,5,0,0,0,1,0.5720707406263211
+117857,Construction,North,Paid Search,Enterprise_Expansion,1,7,0,0,0,0,0,0,1,0.5720437124257121
+123182,Construction,West,Referral,SME_Growth,1,11,1,1,6,0,0,0,1,0.5719486382797022
+103112,Logistics,West,Paid Search,SME_Growth,1,10,1,5,2,0,0,0,1,0.5719363666355041
+101422,Construction,North,Sales Outreach,Cashback_Business,0,3,1,6,0,0,0,0,1,0.5718530341593353
