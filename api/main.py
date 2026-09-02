@@ -13,9 +13,22 @@ from src.analytics.genai_engine import generate_answer
 # PATHS
 # =========================================================
 
-DATA = Path("data/processed/scored_prospects.csv")
-MODEL_METRICS = Path("data/processed/models/model_metrics.json")
-INSIGHTS = Path("data/processed/automated_insights.json")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DATA = BASE_DIR / "data" / "processed" / "scored_prospects.csv"
+MODEL_METRICS = (
+    BASE_DIR
+    / "data"
+    / "processed"
+    / "models"
+    / "model_metrics.json"
+)
+INSIGHTS = (
+    BASE_DIR
+    / "data"
+    / "processed"
+    / "automated_insights.json"
+)
 
 
 # =========================================================
@@ -40,12 +53,16 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        # Local development
         "http://localhost:5173",
         "http://localhost:5174",
         "http://localhost:5175",
         "http://127.0.0.1:5173",
         "http://127.0.0.1:5174",
         "http://127.0.0.1:5175",
+
+        # Production dashboard
+        "https://aim-commercial-intelligence-dashboard.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -56,6 +73,22 @@ app.add_middleware(
 # =========================================================
 # LOAD DATA
 # =========================================================
+
+if not DATA.exists():
+    raise FileNotFoundError(
+        f"Required analytics dataset not found: {DATA}"
+    )
+
+if not MODEL_METRICS.exists():
+    raise FileNotFoundError(
+        f"Required model metrics not found: {MODEL_METRICS}"
+    )
+
+if not INSIGHTS.exists():
+    raise FileNotFoundError(
+        f"Required insights file not found: {INSIGHTS}"
+    )
+
 
 df = pd.read_csv(DATA)
 
@@ -358,8 +391,7 @@ def anomalies(
         df[
             (df["ml_anomaly_flag"] == 1)
             | (df["gaming_risk_score"] >= 60)
-        ]
-        [
+        ][
             [
                 "prospect_id",
                 "previous_applications",
